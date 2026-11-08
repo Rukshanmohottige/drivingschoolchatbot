@@ -1,0 +1,105 @@
+{
+  "bookings": [
+    {
+      "fullName": "Anura Kumara",
+      "phone": "+94 77 999 8888",
+      "email": "anura@example.com",
+      "nicNumber": "198012345678",
+      "courseId": "car-manual",
+      "courseName": "Light Vehicle Car (Manual Transmission)",
+      "transmission": "Manual",
+      "branch": "Nugegoda Main Campus",
+      "preferredDate": "2026-12-01",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "Please schedule theory exam fast.",
+      "id": "BK-9483",
+      "status": "confirmed",
+      "createdAt": "2026-11-07T21:02:36.638Z"
+    },
+    {
+      "fullName": "Anura Kumara",
+      "phone": "+94 77 999 8888",
+      "email": "anura@example.com",
+      "nicNumber": "198012345678",
+      "courseId": "car-manual",
+      "courseName": "Light Vehicle Car (Manual Transmission)",
+      "transmission": "Manual",
+      "branch": "Nugegoda Main Campus",
+      "preferredDate": "2026-12-01",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "Please schedule theory exam fast.",
+      "id": "BK-4673",
+      "status": "confirmed",
+      "createdAt": "2026-11-07T21:01:59.511Z"
+    },
+    {
+      "id": "BK-1001",
+      "fullName": "Kasun Perera",
+      "phone": "+94 77 987 6543",
+      "email": "kasun.p@gmail.com",
+      "nicNumber": "199512345678",
+      "courseId": "car-auto",
+      "courseName": "Light Vehicle Car (Auto Transmission)",
+      "transmission": "Auto",
+      "branch": "Nugegoda Main Campus",
+      "preferredDate": "2026-11-15",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "Prefer weekend sessions if available.",
+      "status": "reviewed",
+      "createdAt": "2026-11-05T21:01:59.510Z"
+    },
+    {
+      "id": "BK-1002",
+      "fullName": "Sanduni Fernando",
+      "phone": "+94 71 234 5678",
+      "email": "sanduni.f@outlook.com",
+      "nicNumber": "200087654321",
+      "courseId": "combo-car-bike",
+      "courseName": "Combo Package: Car + Motorcycle",
+      "transmission": "Manual",
+      "branch": "Werahera / Boralesgamuwa Branch",
+      "preferredDate": "2026-11-20",
+      "preferredTimeSlot": "Weekend Special",
+      "hasLearnerPermit": true,
+      "notes": "Already have medical certificate.",
+      "status": "pending",
+      "createdAt": "2026-11-06T21:01:59.510Z"
+    }
+  ],
+  "enquiries": [
+    {
+      "fullName": "Kamal Gunaratne",
+      "phone": "071 555 4321",
+      "email": "kamal@example.com",
+      "category": "exam",
+      "message": "Can I do my written exam in English instead of Sinhala?",
+      "id": "ENQ-5247",
+      "status": "open",
+      "createdAt": "2026-11-07T21:02:36.649Z"
+    },
+    {
+      "fullName": "Kamal Gunaratne",
+      "phone": "071 555 4321",
+      "email": "kamal@example.com",
+      "category": "exam",
+      "message": "Can I do my written exam in English instead of Sinhala?",
+      "id": "ENQ-6101",
+      "status": "open",
+      "createdAt": "2026-11-07T21:01:59.514Z"
+    },
+    {
+      "id": "ENQ-501",
+      "fullName": "Dilshan Silva",
+      "phone": "+94 76 555 4321",
+      "email": "dilshan@hotmail.com",
+      "category": "medical",
+      "message": "Can I do my NTMI medical test on Saturday morning at Werahera?",
+      "status": "open",
+      "createdAt": "2026-11-04T21:01:59.510Z"
+    }
+  ],
+  "sessions": {}
+}
