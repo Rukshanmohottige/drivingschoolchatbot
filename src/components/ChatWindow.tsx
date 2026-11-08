@@ -10,6 +10,9 @@ import { BookingModal } from './BookingModal';
 import { EnquiryModal } from './EnquiryModal';
 import { AdminPanel } from './AdminPanel';
 import { AiSettingsModal } from './AiSettingsModal';
+import { SchoolsDirectoryModal } from './SchoolsDirectoryModal';
+import { LicenseRoadmapModal } from './LicenseRoadmapModal';
+import { FeeCalculatorModal } from './FeeCalculatorModal';
 import {
   Car,
   ShieldCheck,
@@ -19,7 +22,10 @@ import {
   Calendar,
   HelpCircle,
   Phone,
-  FileText
+  FileText,
+  Compass,
+  Calculator,
+  Building2
 } from 'lucide-react';
 
 export const ChatWindow: React.FC = () => {
@@ -33,6 +39,9 @@ export const ChatWindow: React.FC = () => {
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
   const [isAdminOpen, setIsAdminOpen] = useState(false);
   const [isAiSettingsOpen, setIsAiSettingsOpen] = useState(false);
+  const [isSchoolsOpen, setIsSchoolsOpen] = useState(false);
+  const [isRoadmapOpen, setIsRoadmapOpen] = useState(false);
+  const [isCalculatorOpen, setIsCalculatorOpen] = useState(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const isSi = language === 'si';
@@ -180,6 +189,9 @@ export const ChatWindow: React.FC = () => {
         onOpenEnquiry={() => setIsEnquiryOpen(true)}
         onOpenAdmin={() => setIsAdminOpen(true)}
         onOpenAiSettings={() => setIsAiSettingsOpen(true)}
+        onOpenSchools={() => setIsSchoolsOpen(true)}
+        onOpenRoadmap={() => setIsRoadmapOpen(true)}
+        onOpenCalculator={() => setIsCalculatorOpen(true)}
         isAdminOpen={isAdminOpen}
       />
 
@@ -238,6 +250,72 @@ export const ChatWindow: React.FC = () => {
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Quick Explorer Hub Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+            <button
+              type="button"
+              onClick={() => setIsSchoolsOpen(true)}
+              className="bg-white hover:bg-brand-50/50 p-3.5 rounded-2xl border border-slate-200/90 hover:border-brand-300 shadow-2xs hover:shadow-xs transition text-left flex items-center justify-between group"
+            >
+              <div className="flex items-center gap-3">
+                <div className="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
+                  <Building2 className="w-5 h-5" />
+                </div>
+                <div>
+                  <h4 className="text-xs font-bold text-slate-900 group-hover:text-brand-600 transition">
+                    {isSi ? 'ශ්‍රී ලංකා රියදුරු පාසල්' : 'Driving Schools Directory'}
+                  </h4>
+                  <p className="text-[10px] text-slate-500">
+                    {isSi ? 'කොළඹ, නුවර, ගම්පහ, ගාල්ල' : 'Browse registered learners & fees'}
+                  </p>
+                </div>
+              </div>
+              <span className="text-slate-300 group-hover:text-brand-600 text-sm">→</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setIsRoadmapOpen(true)}
+              className="bg-white hover:bg-brand-50/50 p-3.5 rounded-2xl border border-slate-200/90 hover:border-brand-300 shadow-2xs hover:shadow-xs transition text-left flex items-center justify-between group"
+            >
+              <div className="flex items-center gap-3">
+                <div className="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
+                  <Compass className="w-5 h-5" />
+                </div>
+                <div>
+                  <h4 className="text-xs font-bold text-slate-900 group-hover:text-brand-600 transition">
+                    {isSi ? 'බලපත්‍ර පියවර 5ක මග' : '5-Step License Roadmap'}
+                  </h4>
+                  <p className="text-[10px] text-slate-500">
+                    {isSi ? 'වෛද්‍ය පරීක්ෂණයේ සිට ට්‍රයල් එක දක්වා' : 'Medical, Theory, & Trial rules'}
+                  </p>
+                </div>
+              </div>
+              <span className="text-slate-300 group-hover:text-brand-600 text-sm">→</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setIsCalculatorOpen(true)}
+              className="bg-white hover:bg-brand-50/50 p-3.5 rounded-2xl border border-slate-200/90 hover:border-brand-300 shadow-2xs hover:shadow-xs transition text-left flex items-center justify-between group"
+            >
+              <div className="flex items-center gap-3">
+                <div className="w-9 h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
+                  <Calculator className="w-5 h-5" />
+                </div>
+                <div>
+                  <h4 className="text-xs font-bold text-slate-900 group-hover:text-brand-600 transition">
+                    {isSi ? 'ගාස්තු සහ වාරික ගණනය' : 'Fee & Installment Calculator'}
+                  </h4>
+                  <p className="text-[10px] text-slate-500">
+                    {isSi ? 'පහසු වාරික 3 හෝ රු. 2,000ක වට්ටම්' : '50% on start, 25%, 25% plans'}
+                  </p>
+                </div>
+              </div>
+              <span className="text-slate-300 group-hover:text-brand-600 text-sm">→</span>
+            </button>
           </div>
 
           {/* Messages Timeline */}
@@ -301,6 +379,26 @@ export const ChatWindow: React.FC = () => {
       <AiSettingsModal
         isOpen={isAiSettingsOpen}
         onClose={() => setIsAiSettingsOpen(false)}
+      />
+
+      <SchoolsDirectoryModal
+        isOpen={isSchoolsOpen}
+        onClose={() => setIsSchoolsOpen(false)}
+        language={language}
+        onOpenBooking={() => setIsBookingOpen(true)}
+      />
+
+      <LicenseRoadmapModal
+        isOpen={isRoadmapOpen}
+        onClose={() => setIsRoadmapOpen(false)}
+        language={language}
+      />
+
+      <FeeCalculatorModal
+        isOpen={isCalculatorOpen}
+        onClose={() => setIsCalculatorOpen(false)}
+        language={language}
+        onOpenBookingWithCourse={() => setIsBookingOpen(true)}
       />
     </div>
   );

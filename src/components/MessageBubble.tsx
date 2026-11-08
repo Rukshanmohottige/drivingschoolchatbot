@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Message } from '@/types/chat';
-import { Bot, User, Copy, Check, Calendar, HelpCircle, BookOpen, ExternalLink } from 'lucide-react';
+import { Bot, User, Copy, Check, Calendar, HelpCircle, BookOpen, Volume2, VolumeX } from 'lucide-react';
 
 interface MessageBubbleProps {
   message: Message;
@@ -19,11 +19,40 @@ export const MessageBubble: React.FC<MessageBubbleProps> = ({
 }) => {
   const isUser = message.role === 'user';
   const [copied, setCopied] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(message.content);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleSpeak = () => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+
+    if (isSpeaking) {
+      window.speechSynthesis.cancel();
+      setIsSpeaking(false);
+      return;
+    }
+
+    // Clean markdown stars and bullets for speech
+    const cleanText = message.content.replace(/[*#•_-]/g, ' ').replace(/\s+/g, ' ');
+    const utterance = new SpeechSynthesisUtterance(cleanText);
+
+    // If Sinhala characters detected, try Sinhala or default voice
+    if (/[\u0D80-\u0DFF]/.test(cleanText)) {
+      utterance.lang = 'si-LK';
+    } else {
+      utterance.lang = 'en-US';
+    }
+
+    utterance.onend = () => setIsSpeaking(false);
+    utterance.onerror = () => setIsSpeaking(false);
+
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.speak(utterance);
+    setIsSpeaking(true);
   };
 
   // Simple markdown-style rendering for bold and bullets
@@ -80,20 +109,32 @@ export const MessageBubble: React.FC<MessageBubbleProps> = ({
               : 'bg-white text-slate-800 border border-slate-200/80 rounded-tl-none'
           }`}
         >
-          {/* User / Bot label + Copy icon for Bot */}
+          {/* User / Bot label + Speak & Copy icons */}
           {!isUser && (
             <div className="flex items-center justify-between gap-3 mb-1.5 pb-1 border-b border-slate-100 text-[11px] text-slate-400 font-medium">
               <span className="text-brand-600 font-semibold flex items-center gap-1">
                 DriveMate Assistant
               </span>
-              <button
-                type="button"
-                onClick={handleCopy}
-                className="hover:text-slate-700 p-0.5 transition"
-                title="Copy response"
-              >
-                {copied ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Copy className="w-3.5 h-3.5" />}
-              </button>
+              <div className="flex items-center gap-1.5">
+                <button
+                  type="button"
+                  onClick={handleSpeak}
+                  className={`p-1 rounded transition ${
+                    isSpeaking ? 'text-brand-600 bg-brand-50' : 'text-slate-400 hover:text-slate-700'
+                  }`}
+                  title={isSpeaking ? 'Stop speaking' : 'Read aloud'}
+                >
+                  {isSpeaking ? <VolumeX className="w-3.5 h-3.5" /> : <Volume2 className="w-3.5 h-3.5" />}
+                </button>
+                <button
+                  type="button"
+                  onClick={handleCopy}
+                  className="hover:text-slate-700 p-0.5 transition"
+                  title="Copy response"
+                >
+                  {copied ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Copy className="w-3.5 h-3.5" />}
+                </button>
+              </div>
             </div>
           )}
 

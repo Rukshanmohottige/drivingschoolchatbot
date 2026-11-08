@@ -12,6 +12,9 @@ interface NavbarProps {
   onOpenEnquiry: () => void;
   onOpenAdmin: () => void;
   onOpenAiSettings: () => void;
+  onOpenSchools: () => void;
+  onOpenRoadmap: () => void;
+  onOpenCalculator: () => void;
   isAdminOpen: boolean;
 }
 
@@ -22,6 +25,9 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenEnquiry,
   onOpenAdmin,
   onOpenAiSettings,
+  onOpenSchools,
+  onOpenRoadmap,
+  onOpenCalculator,
   isAdminOpen
 }) => {
   const isSi = language === 'si';
@@ -49,6 +55,31 @@ export const Navbar: React.FC<NavbarProps> = ({
                 {isSi ? 'ශ්‍රී ලංකා රියදුරු පාසල් AI සහායකයා' : 'Sri Lankan Driving School AI Assistant'}
               </p>
             </div>
+          </div>
+
+          {/* Quick Center Nav for Desktop */}
+          <div className="hidden lg:flex items-center gap-1 bg-slate-100/80 p-1 rounded-xl border border-slate-200">
+            <button
+              type="button"
+              onClick={onOpenSchools}
+              className="px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-brand-600 hover:bg-white rounded-lg transition flex items-center gap-1"
+            >
+              <span>🏫 {isSi ? 'රියදුරු පාසල්' : 'Schools'}</span>
+            </button>
+            <button
+              type="button"
+              onClick={onOpenRoadmap}
+              className="px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-brand-600 hover:bg-white rounded-lg transition flex items-center gap-1"
+            >
+              <span>🗺️ {isSi ? 'බලපත්‍ර මගපෙන්වීම' : 'License Guide'}</span>
+            </button>
+            <button
+              type="button"
+              onClick={onOpenCalculator}
+              className="px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-brand-600 hover:bg-white rounded-lg transition flex items-center gap-1"
+            >
+              <span>🧮 {isSi ? 'ගාස්තු ගණනය' : 'Calculator'}</span>
+            </button>
           </div>
 
           {/* Quick Hotline Pill */}

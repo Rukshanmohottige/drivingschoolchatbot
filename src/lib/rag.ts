@@ -1,5 +1,6 @@
 import { DRIVING_SCHOOL_DATA } from '../data/driving-school';
 import { analyzeSinglish } from './singlish';
+import { SRI_LANKAN_DRIVING_SCHOOLS, SRI_LANKA_DRIVING_ECOSYSTEM } from '../data/sri-lankan-schools';
 
 export interface KnowledgeChunk {
   id: string;
@@ -119,6 +120,98 @@ export function buildKnowledgeBase(): KnowledgeChunk[] {
       citation: `FAQ Knowledge Base: ${faq.category}`
     });
   }
+
+  // 6. Sri Lankan Driving Schools Directory chunks
+  for (const school of SRI_LANKAN_DRIVING_SCHOOLS) {
+    const packagesStr = school.popularPackages.map(p => `${p.name}: LKR ${p.fee.toLocaleString()} (${p.lessons} lessons)`).join('; ');
+    chunks.push({
+      id: `school-${school.id}`,
+      title: `${school.name} (${school.district})`,
+      category: 'branch',
+      content: `${school.name} in ${school.district}. Main Branch: ${school.mainBranch}. Branches: ${school.branches.join(', ')}. Phone/WhatsApp: ${school.phone}. Experience: ${school.experienceYears} years. Rating: ${school.rating} (${school.reviewCount} reviews). Classes taught: ${school.vehicleClasses.join(', ')}. Key features: ${school.features.join(', ')}. Popular Packages: ${packagesStr}.`,
+      contentSi: `${school.nameSi} (${school.district} දිස්ත්‍රික්කය). ප්‍රධාන ශාඛාව: ${school.mainBranch}. දුරකථන: ${school.phone}. විශේෂාංග: ${school.featuresSi.join(', ')}. පාඨමාලා: ${packagesStr}.`,
+      keywords: [
+        school.id,
+        school.name.toLowerCase(),
+        school.nameSi.toLowerCase(),
+        school.district.toLowerCase(),
+        'driving school',
+        'learners',
+        'school',
+        'perera',
+        'ama',
+        'aravinda',
+        'athula',
+        'charika',
+        'sarathi',
+        'dasuni',
+        'ruhunu',
+        'auto driving school',
+        'ලර්නර්ස්',
+        'රියදුරු පාසල්'
+      ],
+      citation: `Sri Lanka Driving Schools Directory: ${school.name}`
+    });
+  }
+
+  // 7. How Driving Schools Work in Sri Lanka chunks
+  for (const step of SRI_LANKA_DRIVING_ECOSYSTEM.howSchoolsWork) {
+    chunks.push({
+      id: `how-schools-work-step-${step.step}`,
+      title: `How Driving Schools Work (Step ${step.step}): ${step.title}`,
+      category: 'process',
+      content: `How Sri Lankan Driving Schools Work - Step ${step.step}: ${step.title}.\nDetailed Process: ${step.detail}\nPractical Candidate Tip: ${step.practicalTip}`,
+      contentSi: `ශ්‍රී ලංකාවේ රියදුරු පාසල් ක්‍රියාත්මක වන ආකාරය (පියවර ${step.step}): ${step.titleSi}.\nවිස්තරය: ${step.detailSi}\nවැදගත් උපදෙස: ${step.practicalTip}`,
+      keywords: [
+        'how driving schools work',
+        'how they work',
+        'sri lankan driving schools',
+        'process',
+        'method',
+        'dual control',
+        'how to get license',
+        'learners kohomada wada karanne',
+        'ක්‍රියාත්මක වන ආකාරය'
+      ],
+      citation: `Sri Lanka Driving School Operating Framework (Step ${step.step})`
+    });
+  }
+
+  // 8. RMV Official Government Fees chunk
+  const feesText = SRI_LANKA_DRIVING_ECOSYSTEM.rmvFees.map(f => `• ${f.item}: Normal ${f.normalFee} | One-Day ${f.oneDayFee} (${f.notes})`).join('\n');
+  chunks.push({
+    id: 'dmt-official-fees',
+    title: 'Official Department of Motor Traffic (DMT / RMV) Government Fees',
+    category: 'fee',
+    content: `Official Government Fees for Driving Licenses in Sri Lanka (payable to Department of Motor Traffic & NTMI):\n${feesText}`,
+    contentSi: `ශ්‍රී ලංකා මෝටර් රථ ප්‍රවාහන දෙපාර්තමේන්තුවේ (DMT/RMV) සහ NTMI නිල රජයේ ගාස්තු:\n${feesText}`,
+    keywords: ['government fee', 'rmv fee', 'dmt fee', 'official fee', 'stamp fee', 'medical fee', 'rajaye gaasthu', 'රජයේ ගාස්තු', 'rmv ගාස්තු'],
+    citation: 'DMT Sri Lanka Official Fee Schedule'
+  });
+
+  // 9. RMV Practical Trial Day Rules, Dress Code & Maneuvers chunk
+  chunks.push({
+    id: 'trial-day-guidelines',
+    title: 'RMV Practical Trial Day Guide: Dress Code, Required Documents & Maneuvers',
+    category: 'process',
+    content: `RMV Trial Day Rules & Instructions:\n• Mandatory Dress Code: ${SRI_LANKA_DRIVING_ECOSYSTEM.trialChecklist.dressCode.join('; ')}\n• Mandatory Documents: ${SRI_LANKA_DRIVING_ECOSYSTEM.trialChecklist.mandatoryDocuments.join('; ')}\n• Test Maneuvers: ${SRI_LANKA_DRIVING_ECOSYSTEM.trialChecklist.testManeuvers.join('; ')}\n• Top Reasons Candidates Fail: ${SRI_LANKA_DRIVING_ECOSYSTEM.trialChecklist.commonFailReasons.join('; ')}`,
+    contentSi: `RMV ට්‍රයල් දිනයේ වැදගත් නීති:\n• අනිවාර්ය ඇඳුම් පැළඳුම් (Dress Code): සපත්තු පැළඳීම අනිවාර්යයි (සෙරෙප්පු/සැන්ඩල් තහනම්). විනීත ඇඳුම.\n• රැගෙන යා යුතු ලියකියවිලි: මුල් හැඳුනුම්පත, මුල් පුහුණු අවසරපත්‍රය (Learner Permit), ට්‍රයල් කාඩ්පත.\n• පරීක්ෂණ: රිවර්ස් L හැඩය පාක් කිරීම, කඳු නැගීම (Hill Start), පාරේ ධාවනය, යතුරුපැදි 8 හැඩය.\n• අසමත් වන ප්‍රධාන හේතු: එන්ජිම නතරවීම (stalling), කෝන් වල ගැටීම, යතුරුපැදියේ කකුල බිම තැබීම.`,
+    keywords: [
+      'trial day',
+      'dress code',
+      'shoes',
+      'shoes mandatory',
+      'slippers',
+      'what to wear',
+      'trial maneuvers',
+      'reverse l',
+      'hill start',
+      'fail reasons',
+      'ට්‍රයල් නීති',
+      'සපත්තු'
+    ],
+    citation: 'RMV Practical Driving Test Examination Guide'
+  });
 
   return chunks;
 }
@@ -242,6 +335,14 @@ export function retrieveRelevantKnowledge(query: string, maxResults = 3): Retrie
     } else if (singlishAnalysis.intent === 'branches') {
       if (chunk.category === 'branch') {
         score += 30;
+      }
+    } else if (singlishAnalysis.intent === 'schools_directory') {
+      if (chunk.id.startsWith('school-') || chunk.citation.includes('Driving Schools Directory')) {
+        score += 35;
+      }
+    } else if (singlishAnalysis.intent === 'how_schools_work') {
+      if (chunk.id.startsWith('how-schools-work') || chunk.id === 'trial-day-guidelines' || chunk.id === 'dmt-official-fees') {
+        score += 35;
       }
     }
 

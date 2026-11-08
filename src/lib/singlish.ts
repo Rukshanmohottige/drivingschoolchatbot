@@ -6,7 +6,7 @@
 
 export interface SinglishAnalysis {
   isSinglish: boolean;
-  intent: 'fees' | 'documents' | 'installments' | 'medical' | 'exam' | 'trial' | 'booking' | 'female_instructor' | 'branches' | 'general';
+  intent: 'fees' | 'documents' | 'installments' | 'medical' | 'exam' | 'trial' | 'booking' | 'female_instructor' | 'branches' | 'schools_directory' | 'how_schools_work' | 'general';
   vehicleType: 'auto' | 'manual' | 'bike' | 'combo' | 'heavy' | 'all' | null;
   expandedTokens: string[];
 }
@@ -161,6 +161,35 @@ export function analyzeSinglish(text: string): SinglishAnalysis {
   ) {
     intent = 'booking';
     expandedTokens.push('booking', 'register', 'enroll');
+  }
+
+  // How schools work in Sri Lanka
+  else if (
+    lower.includes('how they work') ||
+    lower.includes('how driving schools work') ||
+    lower.includes('wada karanne kohomada') ||
+    lower.includes('kohomada wada karanne') ||
+    lower.includes('ecosystem')
+  ) {
+    intent = 'how_schools_work';
+    expandedTokens.push('how driving schools work', 'dual control', 'process', 'operating framework');
+  }
+
+  // Driving schools directory
+  else if (
+    lower.includes('driving school') ||
+    lower.includes('learners') ||
+    lower.includes('perera') ||
+    lower.includes('ama') ||
+    lower.includes('aravinda') ||
+    lower.includes('athula') ||
+    lower.includes('charika') ||
+    lower.includes('dasuni') ||
+    lower.includes('sarathi') ||
+    lower.includes('ruhunu')
+  ) {
+    intent = 'schools_directory';
+    expandedTokens.push('driving school', 'learners', 'directory', 'colombo', 'kandy', 'gampaha');
   }
 
   // Branches: e.g. "branches koheda", "koheda thiyenne", "nugegoda", "kandy", "gampaha", "werahera"

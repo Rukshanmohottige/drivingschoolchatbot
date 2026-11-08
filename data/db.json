@@ -13,6 +13,23 @@
       "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
       "hasLearnerPermit": false,
       "notes": "Please schedule theory exam fast.",
+      "id": "BK-2427",
+      "status": "confirmed",
+      "createdAt": "2026-11-08T03:34:08.195Z"
+    },
+    {
+      "fullName": "Anura Kumara",
+      "phone": "+94 77 999 8888",
+      "email": "anura@example.com",
+      "nicNumber": "198012345678",
+      "courseId": "car-manual",
+      "courseName": "Light Vehicle Car (Manual Transmission)",
+      "transmission": "Manual",
+      "branch": "Nugegoda Main Campus",
+      "preferredDate": "2026-12-01",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "Please schedule theory exam fast.",
       "id": "BK-2487",
       "status": "confirmed",
       "createdAt": "2026-11-08T03:07:47.909Z"
@@ -104,6 +121,16 @@
     }
   ],
   "enquiries": [
+    {
+      "fullName": "Kamal Gunaratne",
+      "phone": "071 555 4321",
+      "email": "kamal@example.com",
+      "category": "exam",
+      "message": "Can I do my written exam in English instead of Sinhala?",
+      "id": "ENQ-4019",
+      "status": "open",
+      "createdAt": "2026-11-08T03:34:08.206Z"
+    },
     {
       "fullName": "Kamal Gunaratne",
       "phone": "071 555 4321",
@@ -322,6 +349,245 @@
       "language": "en",
       "createdAt": "2026-11-08T02:53:45.623Z",
       "lastActiveAt": "2026-11-08T02:54:05.593Z"
+    },
+    "dm-mw78jhxo": {
+      "sessionId": "dm-mw78jhxo",
+      "messages": [
+        {
+          "id": "usr-1794107516944-waai",
+          "role": "user",
+          "content": "HI",
+          "timestamp": "2026-11-08T03:11:56.944Z"
+        },
+        {
+          "id": "bot-1794107517243-tgxc",
+          "role": "assistant",
+          "content": "Hello and welcome to **DriveMate Academy Sri Lanka**! 🚗\n\nI am your AI assistant, ready to help you with our driving courses, official RMV licensing procedures, NTMI medical tests, and lesson bookings. How can I assist your driving journey today?",
+          "timestamp": "2026-11-08T03:11:57.243Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka"
+          ],
+          "suggestedQuestions": [
+            "What are the course fees?",
+            "What documents are needed to register?",
+            "Can I pay in installments?",
+            "Book a Driving Lesson"
+          ]
+        },
+        {
+          "id": "usr-1794107542368-l0fh",
+          "role": "user",
+          "content": "HELP ME",
+          "timestamp": "2026-11-08T03:12:22.368Z"
+        },
+        {
+          "id": "bot-1794107542618-0qob",
+          "role": "assistant",
+          "content": "Here is the verified information regarding **Commercial & Heavy Vehicle Training (Lorry / Bus) (C / CE)**:\n\nCourse: Commercial & Heavy Vehicle Training (Lorry / Bus). Vehicle Class: Heavy Motor Vehicle (Class C & CE) (C / CE). Transmission: Manual. Fee: LKR 58,000 (LKR). Duration: 10 - 16 Weeks. Practical Lessons: 24 lessons. Theory classes: 6 classes. Description: Professional heavy vehicle training for commercial drivers and transport operators. Requires candidate to be at least 21 years old and hold a light vehicle license for at least 2 years.. Requirements: Age 21+, Light vehicle license held for minimum 2 years, Commercial Grade NTMI Medical. Includes Medical assistance: Yes. Includes RMV government fees: Yes.\n\n📌 **Related Details:**\n• **Easy 3-Stage Installment Plan**: Easy 3-Stage Installment Plan: 1st Installment (50%): Payable on registration day. Covers RMV registration, theory materials, and medical guidance.\n2nd Installment (25%): Payable before starting practical road lessons.\n3rd Installment (25%): Payable 2 weeks prior to RMV practical trial test.\n• **Full Payment Discount**: Full Payment Discount: Pay the full course fee upfront and receive an instant LKR 2,000 cash discount or 2 extra free practical road hours.\n\nFeel free to ask any follow-up questions or click **Book a Lesson** to get started!",
+          "timestamp": "2026-11-08T03:12:22.618Z",
+          "citations": [
+            "Course Catalog: Commercial & Heavy Vehicle Training (Lorry / Bus)",
+            "Payment Policies: Easy 3-Stage Installment Plan",
+            "Payment Policies: Full Payment Discount"
+          ],
+          "suggestedQuestions": [
+            "Can I pay in installments?",
+            "How does the RMV Theory Exam work?",
+            "Book a Lesson"
+          ]
+        }
+      ],
+      "language": "en",
+      "createdAt": "2026-11-08T03:11:56.943Z",
+      "lastActiveAt": "2026-11-08T03:12:22.620Z"
+    },
+    "default-session": {
+      "sessionId": "default-session",
+      "messages": [
+        {
+          "id": "usr-1794108046448-a1iw",
+          "role": "user",
+          "content": "gana keeyda",
+          "timestamp": "2026-11-08T03:20:46.448Z"
+        },
+        {
+          "id": "bot-1794108046637-7t0n",
+          "role": "assistant",
+          "content": "📋 **ඩ්‍රයිව්මේට් රියදුරු පාසලේ පාඨමාලා ගාස්තු විස්තර (DriveMate Course Fees):**\n\n• 🚗 **කාර් ඔටෝ (Auto Car):** LKR **42,000** *(ප්‍රායෝගික සැසි 18ක් + ට්‍රයල් වාහනය)*\n• 🚗 **කාර් මැනුවල් (Manual Car):** LKR **38,000** *(ප්‍රායෝගික සැසි 20ක් + ට්‍රයල් වාහනය)*\n• 🏍️ **කාර් + බයික් Combi පැකේජය:** LKR **48,000** *(රු. 12,000ක් ඉතිරි කරගත හැක)*\n• 🏍️ **යතුරුපැදි පමණක් (Bike Only):** LKR **18,000** *(ප්‍රායෝගික සැසි 12ක්)*\n• 🚚 **බර වාහන (Heavy Lorry/Bus):** LKR **58,000** *(අවුරුදු 21+ විය යුතුය)*\n• ⏱️ **බලපත්‍රලාභීන්ට පැයක පුහුණුව (Hourly):** LKR **2,500/පැය**\n\n💳 **පහසු වාරික 3කින් ගෙවීමේ ක්‍රමය (Installments):**\n1. ලියාපදිංචි වන දින: 50%\n2. ප්‍රායෝගික පුහුණුව අරඹද්දී: 25%\n3. ට්‍රයල් පරීක්ෂණයට සති 2කට පෙර: 25%\n*(එකවර සම්පූර්ණ මුදල ගෙවීමේදී රු. 2,000ක ක්ෂණික වට්ටමක් ලැබේ!)*",
+          "timestamp": "2026-11-08T03:20:46.637Z",
+          "citations": [
+            "DriveMate Course Fee Catalog",
+            "Installment Policy"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද? (Installment Plan)",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ],
+          "action": "booking"
+        },
+        {
+          "id": "usr-1794108057616-s1oe",
+          "role": "user",
+          "content": "car auto gana keeyda",
+          "timestamp": "2026-11-08T03:20:57.616Z"
+        },
+        {
+          "id": "bot-1794108057798-lh6o",
+          "role": "assistant",
+          "content": "🚗 **ඔටෝ කාර් පාඨමාලා ගාස්තු (Car Auto Course Fee):**\n\n• **සම්පූර්ණ ගාස්තුව:** LKR 42,000 (LKR)\n• **ප්‍රායෝගික පුහුණු සැසි:** 18ක් (Dual-control වාහන මගින්)\n• **න්‍යායාත්මක (Theory) දේශන:** 4ක්\n• **ඇතුළත් දෑ:** NTMI වෛද්‍ය සහය, රජයේ RMV ගාස්තු, සහ ට්‍රයල් එක සඳහා වාහනය නොමිලේ ලබාදීම.\n• **වාරික ගෙවීම්:** 50%ක් ලියාපදිංචියේදී, 25%ක් පුහුණුව අරඹද්දී, ඉතිරි 25% ට්‍රයල් එකට සති 2කට පෙර ගෙවිය හැක.",
+          "timestamp": "2026-11-08T03:20:57.798Z",
+          "citations": [
+            "Course Catalog: Light Vehicle Car (Auto Transmission)"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ],
+          "action": "booking"
+        },
+        {
+          "id": "usr-1794108999369-vc7c",
+          "role": "user",
+          "content": "How do driving schools work in Sri Lanka and what are the main schools?",
+          "timestamp": "2026-11-08T03:36:39.369Z"
+        },
+        {
+          "id": "bot-1794108999611-48ho",
+          "role": "assistant",
+          "content": "Here is the verified information regarding **Dasuni Driving School & Learners (Kandy)**:\n\nDasuni Driving School & Learners in Kandy. Main Branch: Gatambe Junction, Kandy. Branches: Gatambe (Head Office), Peradeniya, Katugastota, Kandy City. Phone/WhatsApp: +94 81 238 8899. Experience: 32 years. Rating: 4.9 (2450 reviews). Classes taught: Class B Auto, Class B Manual, Class A Bike, Class B1 Three Wheeler, Class C/D Heavy Bus/Lorry. Key features: Kandy Hill Country Road Specialists (Hill start & Hairpin bends), Peradeniya Trial Ground Simulation, Female Instructors Available. Popular Packages: Hill Country Auto Car: LKR 43,000 (18 lessons); Hill Country Manual Car: LKR 39,000 (20 lessons); Car + Bike Kandy Special: LKR 49,000 (25 lessons).\n\n📌 **Related Details:**\n• **Charika Learners (Colombo & Kandy) (Colombo)**: Charika Learners (Colombo & Kandy) in Colombo. Main Branch: 812 Maradana Rd, Borella, Colombo 10. Branches: Borella (Colombo 10), D.S. Senanayake Street (Kandy), Pannipitiya. Phone/WhatsApp: +94 11 269 1234 / +94 81 223 9876. Experience: 35 years. Rating: 4.8 (2100 reviews). Classes taught: Class B Auto, Class B Manual, Class A Bike, Class B1 Three Wheeler, Class C Lorry. Key features: Islandwide Inter-district Branch Network, Official RMV Examination Mock Grounds, Dual-Control Fleet. Popular Packages: Auto Car Package: LKR 42,000 (18 lessons); Manual Car Package: LKR 38,000 (20 lessons); Car + Bike Combi: LKR 48,500 (24 lessons).\n• **What is the difference between Manual and Auto driving license in Sri Lanka?**: Question: What is the difference between Manual and Auto driving license in Sri Lanka?\nAnswer: In Sri Lanka, if you obtain a Manual transmission license (Class B Manual), you are legally permitted to drive both Manual and Automatic cars. However, if you obtain an Automatic license (Class B Auto), your driving license will be endorsed with restriction code 'Auto Only', meaning you cannot drive manual vehicles legally.\n\nFeel free to ask any follow-up questions or click **Book a Lesson** to get started!",
+          "timestamp": "2026-11-08T03:36:39.611Z",
+          "citations": [
+            "Sri Lanka Driving Schools Directory: Dasuni Driving School & Learners",
+            "Sri Lanka Driving Schools Directory: Charika Learners (Colombo & Kandy)",
+            "FAQ Knowledge Base: courses"
+          ],
+          "suggestedQuestions": [
+            "Can I pay in installments?",
+            "How does the RMV Theory Exam work?",
+            "Book a Lesson"
+          ]
+        },
+        {
+          "id": "usr-1794109016977-362g",
+          "role": "user",
+          "content": "gana keeyda",
+          "timestamp": "2026-11-08T03:36:56.977Z"
+        },
+        {
+          "id": "bot-1794109017156-3cit",
+          "role": "assistant",
+          "content": "📋 **ඩ්‍රයිව්මේට් රියදුරු පාසලේ පාඨමාලා ගාස්තු විස්තර (DriveMate Course Fees):**\n\n• 🚗 **කාර් ඔටෝ (Auto Car):** LKR **42,000** *(ප්‍රායෝගික සැසි 18ක් + ට්‍රයල් වාහනය)*\n• 🚗 **කාර් මැනුවල් (Manual Car):** LKR **38,000** *(ප්‍රායෝගික සැසි 20ක් + ට්‍රයල් වාහනය)*\n• 🏍️ **කාර් + බයික් Combi පැකේජය:** LKR **48,000** *(රු. 12,000ක් ඉතිරි කරගත හැක)*\n• 🏍️ **යතුරුපැදි පමණක් (Bike Only):** LKR **18,000** *(ප්‍රායෝගික සැසි 12ක්)*\n• 🚚 **බර වාහන (Heavy Lorry/Bus):** LKR **58,000** *(අවුරුදු 21+ විය යුතුය)*\n• ⏱️ **බලපත්‍රලාභීන්ට පැයක පුහුණුව (Hourly):** LKR **2,500/පැය**\n\n💳 **පහසු වාරික 3කින් ගෙවීමේ ක්‍රමය (Installments):**\n1. ලියාපදිංචි වන දින: 50%\n2. ප්‍රායෝගික පුහුණුව අරඹද්දී: 25%\n3. ට්‍රයල් පරීක්ෂණයට සති 2කට පෙර: 25%\n*(එකවර සම්පූර්ණ මුදල ගෙවීමේදී රු. 2,000ක ක්ෂණික වට්ටමක් ලැබේ!)*",
+          "timestamp": "2026-11-08T03:36:57.156Z",
+          "citations": [
+            "DriveMate Course Fee Catalog",
+            "Installment Policy"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද? (Installment Plan)",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ],
+          "action": "booking"
+        },
+        {
+          "id": "usr-1794109024902-5up7",
+          "role": "user",
+          "content": "ලියාපදිංචි වෙන්න ඕන ලියකියවිලි මොනවද?",
+          "timestamp": "2026-11-08T03:37:04.902Z"
+        },
+        {
+          "id": "bot-1794109025155-th5r",
+          "role": "assistant",
+          "content": "ඔබට අපගේ රියදුරු පුහුණු සැසියක් හෝ පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson) පහසුවෙන්ම ඉල්ලීමක් ඉදිරිපත් කළ හැක!\n\nපහත ඇති **\"පාඨමාලාවක් වෙන්කරවා ගන්න\" (Book Lesson)** බොත්තම ක්ලික් කර ඔබේ නම, දුරකථන අංකය සහ කැමති ශාඛාව (නුගේගොඩ, වේරහැර, මහනුවර, ගම්පහ) තෝරන්න. අපගේ කාර්ය මණ්ඩලය විනාඩි කිහිපයකින් ඔබ අමතා වේලාව තහවුරු කරනු ඇත.",
+          "timestamp": "2026-11-08T03:37:05.155Z",
+          "citations": [
+            "DriveMate Booking Workflow"
+          ],
+          "suggestedQuestions": [
+            "කාර් ඔටෝ/මැනුවල් ගාස්තු කීයද?",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?"
+          ],
+          "action": "booking"
+        },
+        {
+          "id": "usr-1794109031314-juvw",
+          "role": "user",
+          "content": "liyakiyawili monawada oni",
+          "timestamp": "2026-11-08T03:37:11.314Z"
+        },
+        {
+          "id": "bot-1794109031507-1ak5",
+          "role": "assistant",
+          "content": "**What documents are required to register for driving lessons? පිළිබඳ තොරතුරු:**\n\nප්‍රශ්නය: රියදුරු පාඨමාලාවකට ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?\nපිළිතුර: ලියාපදිංචිය සඳහා අවශ්‍ය වන්නේ: 1) ජාතික හැඳුනුම්පත (NIC) හෝ වලංගු විදේශ ගමන් බලපත්‍රය, 2) NTMI වෛද්‍ය සහතිකය, 3) සුදු පසුබිමැති පාස්පෝට් ප්‍රමාණයේ ඡායාරූප 4ක්, 4) උප්පැන්න සහතිකයේ පිටපතක්.\n\n📌 **අමතර තොරතුරු:**\n• Step 2: RMV Registration & Learner Permit (L Plate): පියවර 2: RMV ලියාපදිංචිය සහ පුහුණු අවසරපත්‍රය (L ප්ලේට්). විස්තරය: ඩ්‍රයිව්මේට් ආයතනය මගින් ඔබව RMV ලියාපදිංචි කර ඇඟිලි සලකුණු හා ඡායාරූප ලබාදී පුහුණු අවසරපත්‍රය ලබාදෙයි.. ගතවන කාලය: Week 1 - 2.\n• How Driving Schools Work (Step 1): Registration & NTMI Medical Test: ශ්‍රී ලංකාවේ රියදුරු පාසල් ක්‍රියාත්මක වන ආකාරය (පියවර 1): ලියාපදිංචිය සහ NTMI වෛද්‍ය පරීක්ෂණය.\nවිස්තරය: ජාතික ප්‍රවාහන වෛද්‍ය ආයතනයෙන් (NTMI) වෛද්‍ය සහතිකය ලබාගැනීම. ඇස් පෙනීම, වර්ණ අන්ධතාවය, ශ්‍රවණය හා රුධිර පීඩනය පරීක්ෂා කෙරේ. ගාස්තුව රු. 1,500කි.\nවැදගත් උපදෙස: Fast for 8 hours if blood sugar test is required; bring original NIC and 4 photos.\n\nඔබට වැඩිදුර විස්තර අවශ්‍ය නම් හෝ පුහුණු සැසියක් වෙන්කරවා ගැනීමට කැමති නම් අපව අමතන්න (+94 11 234 5678) හෝ ඉහත බොත්තම භාවිතා කරන්න.",
+          "timestamp": "2026-11-08T03:37:11.507Z",
+          "citations": [
+            "FAQ Knowledge Base: registration",
+            "Official RMV Licensing Process Guide (Step 2)",
+            "Sri Lanka Driving School Operating Framework (Step 1)"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        }
+      ],
+      "language": "en",
+      "createdAt": "2026-11-08T03:20:46.444Z",
+      "lastActiveAt": "2026-11-08T03:37:11.510Z"
+    },
+    "dm-mw79nahg": {
+      "sessionId": "dm-mw79nahg",
+      "messages": [
+        {
+          "id": "usr-1794108131087-0o1b",
+          "role": "user",
+          "content": "HI",
+          "timestamp": "2026-11-08T03:22:11.087Z"
+        },
+        {
+          "id": "bot-1794108131313-e5j7",
+          "role": "assistant",
+          "content": "Hello and welcome to **DriveMate Academy Sri Lanka**! 🚗\n\nI am your AI assistant, ready to help you with our driving courses, official RMV licensing procedures, NTMI medical tests, and lesson bookings. How can I assist your driving journey today?",
+          "timestamp": "2026-11-08T03:22:11.313Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka"
+          ],
+          "suggestedQuestions": [
+            "What are the course fees?",
+            "What documents are needed to register?",
+            "Can I pay in installments?",
+            "Book a Driving Lesson"
+          ]
+        },
+        {
+          "id": "usr-1794108170497-raiy",
+          "role": "user",
+          "content": "I want to know how to start my driving liecen",
+          "timestamp": "2026-11-08T03:22:50.497Z"
+        },
+        {
+          "id": "bot-1794108170705-6pki",
+          "role": "assistant",
+          "content": "Here is the verified information regarding **What is the minimum age to obtain a driving license in Sri Lanka?**:\n\nQuestion: What is the minimum age to obtain a driving license in Sri Lanka?\nAnswer: For light vehicles (Cars, Vans, and Motorcycles Class A/B), the minimum legal age is 18 years old. You may register and start theory classes when you are 17 years and 10 months old. For heavy commercial vehicles (Buses, Lorries Class C/CE), the minimum age is 21 years old with at least 2 years of holding a light vehicle license.\n\n📌 **Related Details:**\n• **What documents are required to register for driving lessons?**: Question: What documents are required to register for driving lessons?\nAnswer: To register at DriveMate, you need: 1) Original National Identity Card (NIC) or valid Sri Lankan Passport, 2) NTMI Medical Fitness Certificate, 3) 4 passport-size color photographs (white background, standard ears visible), 4) Birth certificate copy (for age verification).\n• **What is the difference between Manual and Auto driving license in Sri Lanka?**: Question: What is the difference between Manual and Auto driving license in Sri Lanka?\nAnswer: In Sri Lanka, if you obtain a Manual transmission license (Class B Manual), you are legally permitted to drive both Manual and Automatic cars. However, if you obtain an Automatic license (Class B Auto), your driving license will be endorsed with restriction code 'Auto Only', meaning you cannot drive manual vehicles legally.\n\nFeel free to ask any follow-up questions or click **Book a Lesson** to get started!",
+          "timestamp": "2026-11-08T03:22:50.705Z",
+          "citations": [
+            "FAQ Knowledge Base: requirements",
+            "FAQ Knowledge Base: registration",
+            "FAQ Knowledge Base: courses"
+          ],
+          "suggestedQuestions": [
+            "Can I pay in installments?",
+            "How does the RMV Theory Exam work?",
+            "Book a Lesson"
+          ]
+        }
+      ],
+      "language": "en",
+      "createdAt": "2026-11-08T03:22:11.084Z",
+      "lastActiveAt": "2026-11-08T03:22:50.708Z"
     }
   }
 }
