@@ -13,6 +13,40 @@
       "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
       "hasLearnerPermit": false,
       "notes": "Please schedule theory exam fast.",
+      "id": "BK-2487",
+      "status": "confirmed",
+      "createdAt": "2026-11-08T03:07:47.909Z"
+    },
+    {
+      "fullName": "Anura Kumara",
+      "phone": "+94 77 999 8888",
+      "email": "anura@example.com",
+      "nicNumber": "198012345678",
+      "courseId": "car-manual",
+      "courseName": "Light Vehicle Car (Manual Transmission)",
+      "transmission": "Manual",
+      "branch": "Nugegoda Main Campus",
+      "preferredDate": "2026-12-01",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "Please schedule theory exam fast.",
+      "id": "BK-5764",
+      "status": "confirmed",
+      "createdAt": "2026-11-08T03:01:50.906Z"
+    },
+    {
+      "fullName": "Anura Kumara",
+      "phone": "+94 77 999 8888",
+      "email": "anura@example.com",
+      "nicNumber": "198012345678",
+      "courseId": "car-manual",
+      "courseName": "Light Vehicle Car (Manual Transmission)",
+      "transmission": "Manual",
+      "branch": "Nugegoda Main Campus",
+      "preferredDate": "2026-12-01",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "Please schedule theory exam fast.",
       "id": "BK-9483",
       "status": "confirmed",
       "createdAt": "2026-11-07T21:02:36.638Z"
@@ -76,8 +110,28 @@
       "email": "kamal@example.com",
       "category": "exam",
       "message": "Can I do my written exam in English instead of Sinhala?",
-      "id": "ENQ-5247",
+      "id": "ENQ-7574",
       "status": "open",
+      "createdAt": "2026-11-08T03:07:47.914Z"
+    },
+    {
+      "fullName": "Kamal Gunaratne",
+      "phone": "071 555 4321",
+      "email": "kamal@example.com",
+      "category": "exam",
+      "message": "Can I do my written exam in English instead of Sinhala?",
+      "id": "ENQ-3820",
+      "status": "open",
+      "createdAt": "2026-11-08T03:01:50.915Z"
+    },
+    {
+      "fullName": "Kamal Gunaratne",
+      "phone": "071 555 4321",
+      "email": "kamal@example.com",
+      "category": "exam",
+      "message": "Can I do my written exam in English instead of Sinhala?",
+      "id": "ENQ-5247",
+      "status": "resolved",
       "createdAt": "2026-11-07T21:02:36.649Z"
     },
     {
@@ -87,7 +141,7 @@
       "category": "exam",
       "message": "Can I do my written exam in English instead of Sinhala?",
       "id": "ENQ-6101",
-      "status": "open",
+      "status": "resolved",
       "createdAt": "2026-11-07T21:01:59.514Z"
     },
     {
@@ -97,9 +151,177 @@
       "email": "dilshan@hotmail.com",
       "category": "medical",
       "message": "Can I do my NTMI medical test on Saturday morning at Werahera?",
-      "status": "open",
+      "status": "resolved",
       "createdAt": "2026-11-04T21:01:59.510Z"
     }
   ],
-  "sessions": {}
+  "sessions": {
+    "dm-mw78jhxf": {
+      "sessionId": "dm-mw78jhxf",
+      "messages": [
+        {
+          "id": "usr-1794106266922-asgg",
+          "role": "user",
+          "content": "HI",
+          "timestamp": "2026-11-08T02:51:06.922Z"
+        },
+        {
+          "id": "bot-1794106267222-dk4z",
+          "role": "assistant",
+          "content": "Hello and welcome to **DriveMate Academy Sri Lanka**! 🚗\n\nI am your AI assistant, ready to help you with our driving courses, official RMV licensing procedures, NTMI medical tests, and lesson bookings. How can I assist your driving journey today?",
+          "timestamp": "2026-11-08T02:51:07.222Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka"
+          ],
+          "suggestedQuestions": [
+            "What are the course fees?",
+            "What documents are needed to register?",
+            "Can I pay in installments?",
+            "Book a Driving Lesson"
+          ]
+        },
+        {
+          "id": "usr-1794106287671-3e0l",
+          "role": "user",
+          "content": "HI",
+          "timestamp": "2026-11-08T02:51:27.671Z"
+        },
+        {
+          "id": "bot-1794106287851-t50k",
+          "role": "assistant",
+          "content": "ආයුබෝවන්! මම **ඩ්‍රයිව්මේට් AI (DriveMate AI)** රියදුරු සහායකයා. \n\nඔබට ශ්‍රී ලංකාවේ රියදුරු බලපත්‍රයක් ලබාගැනීම, පාඨමාලා ගාස්තු, ලිඛිත විභාගය, හෝ ප්‍රායෝගික පුහුණුව පිළිබඳ ඕනෑම ප්‍රශ්නයක් විමසිය හැක. අද ඔබට මගෙන් කුමන තොරතුරුද අවශ්‍ය?",
+          "timestamp": "2026-11-08T02:51:27.851Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka"
+          ],
+          "suggestedQuestions": [
+            "කාර් ඔටෝ/මැනුවල් ගාස්තු කීයද?",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?",
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "පුහුණු සැසියක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794106313511-r831",
+          "role": "user",
+          "content": "GASTHUWA KEEYAD",
+          "timestamp": "2026-11-08T02:51:53.511Z"
+        },
+        {
+          "id": "bot-1794106313681-kr54",
+          "role": "assistant",
+          "content": "සමාවන්න, ඔබ විමසූ කරුණ පිළිබඳ නිශ්චිත තොරතුරක් ඩ්‍රයිව්මේට් රියදුරු පාසලේ දත්ත පද්ධතිය තුළ සටහන්ව නොමැත.\n\nරියදුරු පාසලේ නීති සහ ගාස්තු පිළිබඳ වැරදි තොරතුරු ලබානොදීම අපගේ ප්‍රතිපත්තියයි. කරුණාකර වැඩිදුර තොරතුරු සඳහා අපගේ නිල දුරකථන අංකය (+94 11 234 5678 / WhatsApp +94 77 123 4567) අමතන්න හෝ අප වෙත විමසීමක් (Enquiry) යොමු කරන්න.",
+          "timestamp": "2026-11-08T02:51:53.681Z",
+          "citations": [
+            "DriveMate Customer Support Policy"
+          ],
+          "suggestedQuestions": [
+            "කාර් ඔටෝ සහ මැනුවල් පාඨමාලා ගාස්තු",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?",
+            "ශාඛා පිහිටි ස්ථාන සහ දුරකථන අංක"
+          ],
+          "action": "enquiry"
+        },
+        {
+          "id": "usr-1794106323073-l1xb",
+          "role": "user",
+          "content": "ඔටෝ කාර් ගාස්තුව?",
+          "timestamp": "2026-11-08T02:52:03.073Z"
+        },
+        {
+          "id": "bot-1794106323251-d5s0",
+          "role": "assistant",
+          "content": "**Light Vehicle Car (Auto Transmission) (B (Auto)) පිළිබඳ තොරතුරු:**\n\nපාඨමාලාව: සැහැල්ලු වාහන කාර් (ඔටෝ ගියර්). වාහන පන්තිය: B (Auto). ගියර්: Auto. ගාස්තුව: රු. 42,000. කාලය: 6 - 12 Weeks (Flexible scheduling). ප්‍රායෝගික පුහුණු සැසි: 18. විස්තරය: නවීන ඔටෝ ගියර් කාර් සඳහා වන සම්පූර්ණ රියදුරු පාඨමාලාව. නගරයේ පහසුවෙන් රිය ධාවනයට සුදුසුයි. ප්‍රායෝගික පුහුණුවීම් 18ක් සහ ට්‍රයල් එක සඳහා වාහනය ලබාදීම ඇතුළත් වේ.. අවශ්‍යතා: Age 18+, Valid National Identity Card (NIC) or Passport, NTMI Medical Certificate.\n\n📌 **අමතර තොරතුරු:**\n• Light Vehicle Car / Dual Purpose (Manual Transmission) (B (Manual)): පාඨමාලාව: සැහැල්ලු වාහන කාර් / වෑන් (මැනුවල් ගියර්). වාහන පන්තිය: B (Manual). ගියර්: Manual. ගාස්තුව: රු. 38,000. කාලය: 8 - 14 Weeks (Flexible scheduling). ප්‍රායෝගික පුහුණු සැසි: 20. විස්තරය: ක්ලච් පාලනය, කඳු නැගීම, සහ රිවර්ස් පාක් කිරීම ඇතුළු සම්පූර්ණ මැනුවල් පුහුණුව. මැනුවල් බලපත්‍රය ලබාගත් විට ඔටෝ සහ මැනුවල් වාහන දෙකම ධාවනය කළ හැක.. අවශ්‍යතා: Age 18+, Valid National Identity Card (NIC) or Passport, NTMI Medical Certificate.\n• Combo Package: Car (Manual/Auto) + Motorcycle (B + A/A1): පාඨමාලාව: කාර් (ඔටෝ/මැනුවල්) + යතුරුපැදි Combi පාඨමාලාව. වාහන පන්තිය: B + A/A1. ගියර්: Both. ගාස්තුව: රු. 48,000. කාලය: 8 - 14 Weeks. ප්‍රායෝගික පුහුණු සැසි: 25. විස්තරය: අපගේ ජනප්‍රියම පාඨමාලාව! කාර් සහ යතුරුපැදි දෙකටම එකම ලියාපදිංචියෙන් පුහුණුව ලබාගෙන රජයේ ගාස්තු වලින් රු. 12,000කට වැඩි මුදලක් ඉතිරි කරගන්න.. අවශ්‍යතා: Age 18+, Valid NIC or Passport, NTMI Medical Fitness Certificate.\n\nඔබට වැඩිදුර විස්තර අවශ්‍ය නම් හෝ පුහුණු සැසියක් වෙන්කරවා ගැනීමට කැමති නම් අපව අමතන්න (+94 11 234 5678) හෝ ඉහත බොත්තම භාවිතා කරන්න.",
+          "timestamp": "2026-11-08T02:52:03.251Z",
+          "citations": [
+            "Course Catalog: Light Vehicle Car (Auto Transmission)",
+            "Course Catalog: Light Vehicle Car / Dual Purpose (Manual Transmission)",
+            "Course Catalog: Combo Package: Car (Manual/Auto) + Motorcycle"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794106352593-ef31",
+          "role": "user",
+          "content": "වාරික වශයෙන් ගෙවිය හැකිද?",
+          "timestamp": "2026-11-08T02:52:32.593Z"
+        },
+        {
+          "id": "bot-1794106352771-a4d9",
+          "role": "assistant",
+          "content": "**Can I pay the course fee in installments? පිළිබඳ තොරතුරු:**\n\nප්‍රශ්නය: පාඨමාලා ගාස්තුව වාරික වශයෙන් ගෙවිය හැකිද?\nපිළිතුර: ඔව්! ඉතා පහසු වාරික 3කින් ගෙවිය හැක: ලියාපදිංචි වන විට 50%ක්, ප්‍රායෝගික පුහුණුව ආරම්භ කරන විට 25%ක්, සහ ට්‍රයල් එකට සති 2කට පෙර ඉතිරි 25%ක්. සම්පූර්ණ මුදල එකවර ගෙවන්නේ නම් රු. 2,000ක වට්ටමක් ලැබේ.\n\n📌 **අමතර තොරතුරු:**\n• Easy 3-Stage Installment Plan: පහසු වාරික 3කින් ගෙවීමේ ක්‍රමය: 1 වන වාරිකය (50%): ලියාපදිංචි වන දින ගෙවිය යුතුය (RMV ගාස්තු සහ පොත්පත් ඇතුළත්).\n2 වන වාරිකය (25%): ප්‍රායෝගික පුහුණුව ආරම්භ කිරීමට පෙර.\n3 වන වාරිකය (25%): ට්‍රයල් එකට සති 2කට පෙර.\n• Full Payment Discount: එකවර ගෙවීමේදී විශේෂ වට්ටම්: සම්පූර්ණ පාඨමාලා ගාස්තුව එකවර ගෙවීමේදී රු. 2,000ක ක්ෂණික වට්ටමක් හෝ නොමිලේ අමතර ප්‍රායෝගික පුහුණු පැය 2ක් ලැබේ.\n\nඔබට වැඩිදුර විස්තර අවශ්‍ය නම් හෝ පුහුණු සැසියක් වෙන්කරවා ගැනීමට කැමති නම් අපව අමතන්න (+94 11 234 5678) හෝ ඉහත බොත්තම භාවිතා කරන්න.",
+          "timestamp": "2026-11-08T02:52:32.771Z",
+          "citations": [
+            "FAQ Knowledge Base: fees",
+            "Payment Policies: Easy 3-Stage Installment Plan",
+            "Payment Policies: Full Payment Discount"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        }
+      ],
+      "language": "en",
+      "createdAt": "2026-11-08T02:51:06.920Z",
+      "lastActiveAt": "2026-11-08T02:52:32.774Z"
+    },
+    "dm-mw78myqn": {
+      "sessionId": "dm-mw78myqn",
+      "messages": [
+        {
+          "id": "usr-1794106425625-ijwo",
+          "role": "user",
+          "content": "CAN U HELP ME",
+          "timestamp": "2026-11-08T02:53:45.625Z"
+        },
+        {
+          "id": "bot-1794106425810-55fn",
+          "role": "assistant",
+          "content": "**Can I pay the course fee in installments? පිළිබඳ තොරතුරු:**\n\nප්‍රශ්නය: පාඨමාලා ගාස්තුව වාරික වශයෙන් ගෙවිය හැකිද?\nපිළිතුර: ඔව්! ඉතා පහසු වාරික 3කින් ගෙවිය හැක: ලියාපදිංචි වන විට 50%ක්, ප්‍රායෝගික පුහුණුව ආරම්භ කරන විට 25%ක්, සහ ට්‍රයල් එකට සති 2කට පෙර ඉතිරි 25%ක්. සම්පූර්ණ මුදල එකවර ගෙවන්නේ නම් රු. 2,000ක වට්ටමක් ලැබේ.\n\n📌 **අමතර තොරතුරු:**\n• How long after getting the learner's permit can I sit for the practical trial test?: ප්‍රශ්නය: පුහුණු අවසරපත්‍රය (Learner Permit) ලබාගෙන කොපමණ කාලයකට පසු ට්‍රයල් එක කළ හැකිද?\nපිළිතුර: ශ්‍රී ලංකා මෝටර් රථ ප්‍රවාහන නීතියට අනුව පුහුණු අවසරපත්‍රය (Learner Permit) ලබාගෙන අවම වශයෙන් මාස 3ක කාලයක් ගතවිය යුතුය. මෙම මාස 3 ඇතුළත සම්පූර්ණ ප්‍රායෝගික පුහුණුව අපි ලබාදෙන්නෙමු.\n• Commercial & Heavy Vehicle Training (Lorry / Bus) (C / CE): පාඨමාලාව: බර වාහන පුහුණුව (ලොරි සහ බස් රථ). වාහන පන්තිය: C / CE. ගියර්: Manual. ගාස්තුව: රු. 58,000. කාලය: 10 - 16 Weeks. ප්‍රායෝගික පුහුණු සැසි: 24. විස්තරය: වෘත්තීය බර වාහන රියදුරු පුහුණුව. අයදුම්කරු අවුරුදු 21 සම්පූර්ණ විය යුතු අතර සැහැල්ලු වාහන බලපත්‍රය වසර 2ක් හෝ ඊට වැඩි කාලයක් සතුව තිබිය යුතුය.. අවශ්‍යතා: Age 21+, Light vehicle license held for minimum 2 years, Commercial Grade NTMI Medical.\n\nඔබට වැඩිදුර විස්තර අවශ්‍ය නම් හෝ පුහුණු සැසියක් වෙන්කරවා ගැනීමට කැමති නම් අපව අමතන්න (+94 11 234 5678) හෝ ඉහත බොත්තම භාවිතා කරන්න.",
+          "timestamp": "2026-11-08T02:53:45.810Z",
+          "citations": [
+            "FAQ Knowledge Base: fees",
+            "FAQ Knowledge Base: trial",
+            "Course Catalog: Commercial & Heavy Vehicle Training (Lorry / Bus)"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794106445402-ryrx",
+          "role": "user",
+          "content": "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+          "timestamp": "2026-11-08T02:54:05.402Z"
+        },
+        {
+          "id": "bot-1794106445590-typq",
+          "role": "assistant",
+          "content": "**Where do I do the medical test and what does it check? පිළිබඳ තොරතුරු:**\n\nප්‍රශ්නය: වෛද්‍ය පරීක්ෂණය (Medical) කරගන්නේ කොහෙන්ද සහ එහිදී පරීක්ෂා කරන්නේ මොනවාද?\nපිළිතුර: වෛද්‍ය පරීක්ෂණය ජාතික ප්‍රවාහන වෛද්‍ය ආයතනයෙන් (NTMI - වේරහැර හෝ නුගේගොඩ) සිදුකළ යුතුය. එහිදී ඇස් පෙනීම, වර්ණ අන්ධතාවය, ශ්‍රවණය, රුධිර පීඩනය සහ සීනි මට්ටම පරීක්ෂා කරයි. අප ආයතනය මගින් මේ සඳහා අවශ්‍ය මගපෙන්වීම ලබාදේ.\n\n📌 **අමතර තොරතුරු:**\n• Step 1: NTMI Medical Fitness Test: පියවර 1: ජාතික ප්‍රවාහන වෛද්‍ය සහතිකය (NTMI Medical). විස්තරය: ජාතික ප්‍රවාහන වෛද්‍ය ආයතනයෙන් (NTMI) වෛද්‍ය පරීක්ෂණය සමත්වීම. මුල් හැඳුනුම්පත රැගෙන යා යුතුය. සහතිකය මාස 6ක් වලංගු වේ.. ගතවන කාලය: Day 1 (1 - 2 hours).\n• Step 5: RMV Practical Trial Test & License Issuance: පියවර 5: RMV ප්‍රායෝගික පරීක්ෂණය (Trial) සහ බලපත්‍රය ලබාගැනීම. විස්තරය: මෝටර් රථ පරීක්ෂකවරයා ඉදිරියේ ට්‍රයල් පරීක්ෂණයට පෙනී සිටීම. සමත් වූ විගස තාවකාලික බලපත්‍රය හිමිවන අතර නිල ස්මාර්ට් කාඩ්පත තැපෑලෙන් ලැබේ.. ගතවන කාලය: Month 3 - 4.\n\nඔබට වැඩිදුර විස්තර අවශ්‍ය නම් හෝ පුහුණු සැසියක් වෙන්කරවා ගැනීමට කැමති නම් අපව අමතන්න (+94 11 234 5678) හෝ ඉහත බොත්තම භාවිතා කරන්න.",
+          "timestamp": "2026-11-08T02:54:05.590Z",
+          "citations": [
+            "FAQ Knowledge Base: medical",
+            "Official RMV Licensing Process Guide (Step 1)",
+            "Official RMV Licensing Process Guide (Step 5)"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        }
+      ],
+      "language": "en",
+      "createdAt": "2026-11-08T02:53:45.623Z",
+      "lastActiveAt": "2026-11-08T02:54:05.593Z"
+    }
+  }
 }

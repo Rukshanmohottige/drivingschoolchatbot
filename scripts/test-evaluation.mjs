@@ -60,6 +60,38 @@ async function runTestSuite() {
   );
 
   // ----------------------------------------------------
+  // TEST 3.5: Singlish (Phonetic Sinhala) Queries
+  // ----------------------------------------------------
+  console.log('\n--- Test Group 1.5: Singlish Phonetic Comprehension ---');
+  const singlishFee = await generateChatResponse('gana keeyda', 'en');
+  assert(
+    singlishFee.content.includes('42,000') && singlishFee.content.includes('38,000'),
+    'Singlish "gana keeyda" returns complete course fee structure',
+    singlishFee.content.slice(0, 100)
+  );
+
+  const singlishAuto = await generateChatResponse('car auto gana keeyda', 'en');
+  assert(
+    singlishAuto.content.includes('42,000') && singlishAuto.content.toLowerCase().includes('auto'),
+    'Singlish "car auto gana keeyda" returns Auto Car fee (LKR 42,000)',
+    singlishAuto.content.slice(0, 100)
+  );
+
+  const singlishDocs = await generateChatResponse('liyakiyawili monawada oni', 'en');
+  assert(
+    singlishDocs.content.toLowerCase().includes('nic') || singlishDocs.content.includes('හැඳුනුම්පත'),
+    'Singlish "liyakiyawili monawada oni" returns registration documents',
+    singlishDocs.content.slice(0, 100)
+  );
+
+  const singlishInstall = await generateChatResponse('warika puluwanda', 'en');
+  assert(
+    singlishInstall.content.includes('50%') || singlishInstall.content.includes('වාරික'),
+    'Singlish "warika puluwanda" returns installment plan options',
+    singlishInstall.content.slice(0, 100)
+  );
+
+  // ----------------------------------------------------
   // TEST 4: Anti-hallucination / Fallback on Out-of-Scope Queries
   // ----------------------------------------------------
   console.log('\n--- Test Group 2: Anti-Hallucination & Scope Fallback ---');

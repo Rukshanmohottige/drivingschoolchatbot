@@ -11,6 +11,7 @@ interface NavbarProps {
   onOpenBooking: () => void;
   onOpenEnquiry: () => void;
   onOpenAdmin: () => void;
+  onOpenAiSettings: () => void;
   isAdminOpen: boolean;
 }
 
@@ -20,6 +21,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenBooking,
   onOpenEnquiry,
   onOpenAdmin,
+  onOpenAiSettings,
   isAdminOpen
 }) => {
   const isSi = language === 'si';
@@ -78,6 +80,16 @@ export const Navbar: React.FC<NavbarProps> = ({
             >
               <Calendar className="w-4 h-4" />
               <span>{isSi ? 'වෙන්කරවා ගන්න' : 'Book Lesson'}</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={onOpenAiSettings}
+              title="Configure AI Model & API Keys"
+              className="p-2 rounded-lg text-xs font-medium border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 transition flex items-center gap-1"
+            >
+              <Sparkles className="w-4 h-4 text-amber-500" />
+              <span className="hidden sm:inline font-semibold text-[11px]">AI Model</span>
             </button>
 
             <button

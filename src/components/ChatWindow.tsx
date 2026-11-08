@@ -9,6 +9,7 @@ import { ChatInput } from './ChatInput';
 import { BookingModal } from './BookingModal';
 import { EnquiryModal } from './EnquiryModal';
 import { AdminPanel } from './AdminPanel';
+import { AiSettingsModal } from './AiSettingsModal';
 import {
   Car,
   ShieldCheck,
@@ -31,6 +32,7 @@ export const ChatWindow: React.FC = () => {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
   const [isAdminOpen, setIsAdminOpen] = useState(false);
+  const [isAiSettingsOpen, setIsAiSettingsOpen] = useState(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const isSi = language === 'si';
@@ -97,13 +99,18 @@ export const ChatWindow: React.FC = () => {
     setIsLoading(true);
 
     try {
+      const savedKey = localStorage.getItem('drivemate_ai_key');
+      const savedProvider = localStorage.getItem('drivemate_ai_provider');
+
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           message: text,
           sessionId,
-          language
+          language,
+          apiKey: savedKey || undefined,
+          provider: savedProvider || undefined
         })
       });
 
@@ -172,6 +179,7 @@ export const ChatWindow: React.FC = () => {
         onOpenBooking={() => setIsBookingOpen(true)}
         onOpenEnquiry={() => setIsEnquiryOpen(true)}
         onOpenAdmin={() => setIsAdminOpen(true)}
+        onOpenAiSettings={() => setIsAiSettingsOpen(true)}
         isAdminOpen={isAdminOpen}
       />
 
@@ -289,6 +297,11 @@ export const ChatWindow: React.FC = () => {
       />
 
       <AdminPanel isOpen={isAdminOpen} onClose={() => setIsAdminOpen(false)} />
+
+      <AiSettingsModal
+        isOpen={isAiSettingsOpen}
+        onClose={() => setIsAiSettingsOpen(false)}
+      />
     </div>
   );
 };

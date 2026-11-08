@@ -1,4 +1,5 @@
 import { DRIVING_SCHOOL_DATA } from '../data/driving-school';
+import { analyzeSinglish } from './singlish';
 
 export interface KnowledgeChunk {
   id: string;
@@ -33,6 +34,11 @@ export function buildKnowledgeBase(): KnowledgeChunk[] {
         'garthuwa',
         'mila',
         'ganan',
+        'gana',
+        'keeyda',
+        'kiyada',
+        'keeyada',
+        'gaasthu',
         'course',
         'duration',
         'lessons',
@@ -160,7 +166,9 @@ export function retrieveRelevantKnowledge(query: string, maxResults = 3): Retrie
     };
   }
 
-  const queryTokens = tokenize(query);
+  const singlishAnalysis = analyzeSinglish(query);
+  const rawTokens = tokenize(query);
+  const queryTokens = Array.from(new Set([...rawTokens, ...singlishAnalysis.expandedTokens]));
 
   if (queryTokens.length === 0) {
     return {
@@ -192,9 +200,54 @@ export function retrieveRelevantKnowledge(query: string, maxResults = 3): Retrie
       }
     }
 
+    // Direct Singlish intent boost
+    if (singlishAnalysis.intent === 'fees') {
+      if (singlishAnalysis.vehicleType === 'auto' && chunk.id === 'course-car-auto') {
+        score += 30;
+      } else if (singlishAnalysis.vehicleType === 'manual' && chunk.id === 'course-car-manual') {
+        score += 30;
+      } else if (singlishAnalysis.vehicleType === 'bike' && chunk.id === 'course-bike-only') {
+        score += 30;
+      } else if (singlishAnalysis.vehicleType === 'combo' && chunk.id === 'course-combo-car-bike') {
+        score += 30;
+      } else if (singlishAnalysis.vehicleType === 'heavy' && chunk.id === 'course-heavy-vehicle') {
+        score += 30;
+      } else if (chunk.category === 'course') {
+        score += 20;
+      }
+    } else if (singlishAnalysis.intent === 'documents') {
+      if (chunk.id === 'faq-docs' || chunk.id === 'process-step-2') {
+        score += 30;
+      }
+    } else if (singlishAnalysis.intent === 'installments') {
+      if (chunk.category === 'fee' || chunk.id === 'faq-installments') {
+        score += 30;
+      }
+    } else if (singlishAnalysis.intent === 'medical') {
+      if (chunk.id === 'faq-medical' || chunk.id === 'process-step-1') {
+        score += 30;
+      }
+    } else if (singlishAnalysis.intent === 'exam') {
+      if (chunk.id === 'faq-theory-exam' || chunk.id === 'process-step-3') {
+        score += 30;
+      }
+    } else if (singlishAnalysis.intent === 'trial') {
+      if (chunk.id.includes('trial') || chunk.id === 'process-step-5') {
+        score += 30;
+      }
+    } else if (singlishAnalysis.intent === 'female_instructor') {
+      if (chunk.id === 'faq-female-instructors') {
+        score += 30;
+      }
+    } else if (singlishAnalysis.intent === 'branches') {
+      if (chunk.category === 'branch') {
+        score += 30;
+      }
+    }
+
     // Boost common intent queries
     const qLower = query.toLowerCase();
-    if ((qLower.includes('fee') || qLower.includes('price') || qLower.includes('cost') || qLower.includes('මිල') || qLower.includes('ගාස්තු')) && chunk.category === 'course') {
+    if ((qLower.includes('fee') || qLower.includes('price') || qLower.includes('cost') || qLower.includes('මිල') || qLower.includes('ගාස්තු') || qLower.includes('gana')) && chunk.category === 'course') {
       score += 5;
     }
     if ((qLower.includes('medical') || qLower.includes('doctor') || qLower.includes('ntmi') || qLower.includes('වෛද්‍ය')) && (chunk.title.includes('Medical') || chunk.keywords.includes('medical'))) {

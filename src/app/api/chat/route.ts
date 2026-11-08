@@ -6,7 +6,7 @@ import { Language, Message } from '@/types/chat';
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { message, sessionId = 'default-session', language = 'en' } = body;
+    const { message, sessionId = 'default-session', language = 'en', apiKey, provider } = body;
 
     if (!message || typeof message !== 'string' || message.trim().length === 0) {
       return NextResponse.json({ error: 'Message cannot be empty.' }, { status: 400 });
@@ -24,11 +24,20 @@ export async function POST(req: NextRequest) {
     };
     conversationRepo.addMessage(sessionId, userMsg);
 
+    // Custom API key if provided
+    const customApiKey =
+      provider === 'openai'
+        ? { openaiKey: apiKey }
+        : apiKey
+        ? { geminiKey: apiKey }
+        : undefined;
+
     // Generate AI response with RAG groundedness
     const aiResult = await generateChatResponse(
       cleanMessage,
       language as Language,
-      session.messages
+      session.messages,
+      customApiKey
     );
 
     // Record assistant message
