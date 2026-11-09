@@ -13,6 +13,108 @@
       "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
       "hasLearnerPermit": false,
       "notes": "Please schedule theory exam fast.",
+      "id": "BK-9706",
+      "status": "confirmed",
+      "createdAt": "2026-11-08T16:49:03.215Z"
+    },
+    {
+      "fullName": "Anura Kumara",
+      "phone": "+94 77 999 8888",
+      "email": "anura@example.com",
+      "nicNumber": "198012345678",
+      "courseId": "car-manual",
+      "courseName": "Light Vehicle Car (Manual Transmission)",
+      "transmission": "Manual",
+      "branch": "Nugegoda Main Campus",
+      "preferredDate": "2026-12-01",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "Please schedule theory exam fast.",
+      "id": "BK-4952",
+      "status": "confirmed",
+      "createdAt": "2026-11-08T16:46:22.149Z"
+    },
+    {
+      "fullName": "Anura Kumara",
+      "phone": "+94 77 999 8888",
+      "email": "anura@example.com",
+      "nicNumber": "198012345678",
+      "courseId": "car-manual",
+      "courseName": "Light Vehicle Car (Manual Transmission)",
+      "transmission": "Manual",
+      "branch": "Nugegoda Main Campus",
+      "preferredDate": "2026-12-01",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "Please schedule theory exam fast.",
+      "id": "BK-8274",
+      "status": "confirmed",
+      "createdAt": "2026-11-08T13:55:35.655Z"
+    },
+    {
+      "fullName": "Anura Kumara",
+      "phone": "+94 77 999 8888",
+      "email": "anura@example.com",
+      "nicNumber": "198012345678",
+      "courseId": "car-manual",
+      "courseName": "Light Vehicle Car (Manual Transmission)",
+      "transmission": "Manual",
+      "branch": "Nugegoda Main Campus",
+      "preferredDate": "2026-12-01",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "Please schedule theory exam fast.",
+      "id": "BK-7709",
+      "status": "confirmed",
+      "createdAt": "2026-11-08T13:53:44.181Z"
+    },
+    {
+      "fullName": "tt",
+      "phone": "0741342646",
+      "email": "rukshanmohottige@gmail.com",
+      "nicNumber": "",
+      "courseId": "car-auto",
+      "courseName": "Light Vehicle Car (Auto Transmission)",
+      "transmission": "Auto",
+      "branch": "Werahera / Boralesgamuwa Branch",
+      "preferredDate": "2026-11-24",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "",
+      "id": "BK-3019",
+      "status": "pending",
+      "createdAt": "2026-11-08T03:44:16.976Z"
+    },
+    {
+      "fullName": "tt",
+      "phone": "0741342646",
+      "email": "rukshanmohottige@gmail.com",
+      "nicNumber": "",
+      "courseId": "car-auto",
+      "courseName": "Light Vehicle Car (Auto Transmission)",
+      "transmission": "Auto",
+      "branch": "Werahera / Boralesgamuwa Branch",
+      "preferredDate": "2026-11-24",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "",
+      "id": "BK-9785",
+      "status": "pending",
+      "createdAt": "2026-11-08T03:42:53.869Z"
+    },
+    {
+      "fullName": "Anura Kumara",
+      "phone": "+94 77 999 8888",
+      "email": "anura@example.com",
+      "nicNumber": "198012345678",
+      "courseId": "car-manual",
+      "courseName": "Light Vehicle Car (Manual Transmission)",
+      "transmission": "Manual",
+      "branch": "Nugegoda Main Campus",
+      "preferredDate": "2026-12-01",
+      "preferredTimeSlot": "Morning (8:00 AM - 11:00 AM)",
+      "hasLearnerPermit": false,
+      "notes": "Please schedule theory exam fast.",
       "id": "BK-2427",
       "status": "confirmed",
       "createdAt": "2026-11-08T03:34:08.195Z"
@@ -121,6 +223,46 @@
     }
   ],
   "enquiries": [
+    {
+      "fullName": "Kamal Gunaratne",
+      "phone": "071 555 4321",
+      "email": "kamal@example.com",
+      "category": "exam",
+      "message": "Can I do my written exam in English instead of Sinhala?",
+      "id": "ENQ-7994",
+      "status": "open",
+      "createdAt": "2026-11-08T16:49:03.231Z"
+    },
+    {
+      "fullName": "Kamal Gunaratne",
+      "phone": "071 555 4321",
+      "email": "kamal@example.com",
+      "category": "exam",
+      "message": "Can I do my written exam in English instead of Sinhala?",
+      "id": "ENQ-4806",
+      "status": "open",
+      "createdAt": "2026-11-08T16:46:22.157Z"
+    },
+    {
+      "fullName": "Kamal Gunaratne",
+      "phone": "071 555 4321",
+      "email": "kamal@example.com",
+      "category": "exam",
+      "message": "Can I do my written exam in English instead of Sinhala?",
+      "id": "ENQ-1080",
+      "status": "open",
+      "createdAt": "2026-11-08T13:55:35.662Z"
+    },
+    {
+      "fullName": "Kamal Gunaratne",
+      "phone": "071 555 4321",
+      "email": "kamal@example.com",
+      "category": "exam",
+      "message": "Can I do my written exam in English instead of Sinhala?",
+      "id": "ENQ-5422",
+      "status": "open",
+      "createdAt": "2026-11-08T13:53:44.189Z"
+    },
     {
       "fullName": "Kamal Gunaratne",
       "phone": "071 555 4321",
@@ -532,11 +674,188 @@
             "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
             "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
           ]
+        },
+        {
+          "id": "usr-1794137520592-mfm5",
+          "role": "user",
+          "content": "mata license ganna one kohomada karanne",
+          "timestamp": "2026-11-08T11:32:00.592Z"
+        },
+        {
+          "id": "bot-1794137520761-tknu",
+          "role": "assistant",
+          "content": "**How Driving Schools Work (Step 5): Practical Trial Test Day & Temporary License පිළිබඳ තොරතුරු:**\n\nශ්‍රී ලංකාවේ රියදුරු පාසල් ක්‍රියාත්මක වන ආකාරය (පියවර 5): ප්‍රායෝගික ට්‍රයල් පරීක්ෂණය සහ තාවකාලික බලපත්‍රය.\nවිස්තරය: RMV මෝටර් රථ පරීක්ෂකවරයා ඉදිරියේ ට්‍රයල් එකට පෙනී සිටීම. සමත් වූ විගස තාවකාලික බලපත්‍රය හිමිවන අතර ස්මාර්ට් කාඩ්පත තැපෑලෙන් ලැබේ.\nවැදගත් උපදෙස: Strict dress code: full covered shoes or sneakers are mandatory. Slippers or sandals result in immediate test disqualification!\n\n📌 **අමතර තොරතුරු:**\n• How Driving Schools Work (Step 4): Dual-Control Practical Training Behind the Wheel: ශ්‍රී ලංකාවේ රියදුරු පාසල් ක්‍රියාත්මක වන ආකාරය (පියවර 4): ද්විත්ව පාලක වාහන මගින් ප්‍රායෝගික රියදුරු පුහුණුව.\nවිස්තරය: උපදේශකවරයාගේ පැත්තේ අමතර ක්ලච් හා බ්‍රේක් පැඩල් (Dual-Control) සහිත වාහන මගින් නගරබද ධාවනය, කඳු නැගීම, හා රිවර්ස් පාක් කිරීම පුහුණු කරයි.\nවැදගත් උපදෙස: Ask your instructor to drill the exact cone maneuvers used at your district’s testing ground.\n• Step 5: RMV Practical Trial Test & License Issuance: පියවර 5: RMV ප්‍රායෝගික පරීක්ෂණය (Trial) සහ බලපත්‍රය ලබාගැනීම. විස්තරය: මෝටර් රථ පරීක්ෂකවරයා ඉදිරියේ ට්‍රයල් පරීක්ෂණයට පෙනී සිටීම. සමත් වූ විගස තාවකාලික බලපත්‍රය හිමිවන අතර නිල ස්මාර්ට් කාඩ්පත තැපෑලෙන් ලැබේ.. ගතවන කාලය: Month 3 - 4.\n\nඔබට වැඩිදුර විස්තර අවශ්‍ය නම් හෝ පුහුණු සැසියක් වෙන්කරවා ගැනීමට කැමති නම් අපව අමතන්න (+94 11 234 5678) හෝ ඉහත බොත්තම භාවිතා කරන්න.",
+          "timestamp": "2026-11-08T11:32:00.761Z",
+          "citations": [
+            "Sri Lanka Driving School Operating Framework (Step 5)",
+            "Sri Lanka Driving School Operating Framework (Step 4)",
+            "Official RMV Licensing Process Guide (Step 5)"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794137576958-9box",
+          "role": "user",
+          "content": "age eka keeyada one license ganna",
+          "timestamp": "2026-11-08T11:32:56.958Z"
+        },
+        {
+          "id": "bot-1794137577129-ctyo",
+          "role": "assistant",
+          "content": "📋 **ඩ්‍රයිව්මේට් රියදුරු පාසලේ පාඨමාලා ගාස්තු විස්තර (DriveMate Course Fees):**\n\n• 🚗 **කාර් ඔටෝ (Auto Car):** LKR **42,000** *(ප්‍රායෝගික සැසි 18ක් + ට්‍රයල් වාහනය)*\n• 🚗 **කාර් මැනුවල් (Manual Car):** LKR **38,000** *(ප්‍රායෝගික සැසි 20ක් + ට්‍රයල් වාහනය)*\n• 🏍️ **කාර් + බයික් Combi පැකේජය:** LKR **48,000** *(රු. 12,000ක් ඉතිරි කරගත හැක)*\n• 🏍️ **යතුරුපැදි පමණක් (Bike Only):** LKR **18,000** *(ප්‍රායෝගික සැසි 12ක්)*\n• 🚚 **බර වාහන (Heavy Lorry/Bus):** LKR **58,000** *(අවුරුදු 21+ විය යුතුය)*\n• ⏱️ **බලපත්‍රලාභීන්ට පැයක පුහුණුව (Hourly):** LKR **2,500/පැය**\n\n💳 **පහසු වාරික 3කින් ගෙවීමේ ක්‍රමය (Installments):**\n1. ලියාපදිංචි වන දින: 50%\n2. ප්‍රායෝගික පුහුණුව අරඹද්දී: 25%\n3. ට්‍රයල් පරීක්ෂණයට සති 2කට පෙර: 25%\n*(එකවර සම්පූර්ණ මුදල ගෙවීමේදී රු. 2,000ක ක්ෂණික වට්ටමක් ලැබේ!)*",
+          "timestamp": "2026-11-08T11:32:57.129Z",
+          "citations": [
+            "DriveMate Course Fee Catalog",
+            "Installment Policy"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද? (Installment Plan)",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ],
+          "action": "booking"
+        },
+        {
+          "id": "usr-1794146227196-8nru",
+          "role": "user",
+          "content": "age eka keeyada one license ganna",
+          "timestamp": "2026-11-08T13:57:07.196Z"
+        },
+        {
+          "id": "bot-1794146232199-8tem",
+          "role": "assistant",
+          "content": "🎂 **රියදුරු බලපත්‍රයක් ලබාගැනීමට අවශ්‍ය වයස් සීමාවන්:**\n\n• 🚗 **සැහැල්ලු වාහන (කාර් / වෑන් - Class B):** අවම වයස **අවුරුදු 18** කි. (ඔබට අවුරුදු 17යි මාස 10දී ලියාපදිංචි වී න්‍යායාත්මක පන්ති ආරම්භ කළ හැක).\n• 🏍️ **යතුරුපැදි (Class A / A1):** අවම වයස **අවුරුදු 18** කි.\n• 🚚 **බර වාහන (ලොරි / බස් - Class C/CE):** අවම වයස **අවුරුදු 21** ක් විය යුතු අතර, සැහැල්ලු වාහන බලපත්‍රය වසර 2ක් සතුව තිබිය යුතුය.\n\n📌 **අවශ්‍ය ලියකියවිලි:** ජාතික හැඳුනුම්පත (NIC) හෝ පාස්පෝට්, NTMI වෛද්‍ය සහතිකය, ඡායාරූප 4ක්, සහ උප්පැන්න සහතිකයේ පිටපතක්.",
+          "timestamp": "2026-11-08T13:57:12.199Z",
+          "citations": [
+            "FAQ Knowledge Base: requirements",
+            "Official RMV Licensing Process Guide"
+          ],
+          "suggestedQuestions": [
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?",
+            "කාර් ඔටෝ/මැනුවල් ගාස්තු කීයද?",
+            "Book a Lesson"
+          ],
+          "action": "courses"
+        },
+        {
+          "id": "usr-1794146232273-ip5p",
+          "role": "user",
+          "content": "mata license ganna one kohomada karanne",
+          "timestamp": "2026-11-08T13:57:12.273Z"
+        },
+        {
+          "id": "bot-1794146239803-xv3b",
+          "role": "assistant",
+          "content": "🗺️ **ශ්‍රී ලංකාවේ රියදුරු බලපත්‍රයක් ලබාගැනීමේ නිල පියවර 5:**\n\n1. 🩺 **පියවර 1 - NTMI වෛද්‍ය පරීක්ෂණය:** ජාතික ප්‍රවාහන වෛද්‍ය ආයතනයෙන් ඇස් පෙනීම හා රුධිර පරීක්ෂාව කර සහතිකය ලබාගැනීම (වලංගු කාලය මාස 6කි).\n2. 📝 **පියවර 2 - RMV ලියාපදිංචිය හා L-Plate:** ඇඟිලි සලකුණු ලබාදී නිල පුහුණු අවසරපත්‍රය (Learner Permit) ලබාගැනීම.\n3. 📚 **පියවර 3 - ලිඛිත විභාගය (Theory Exam):** බහුවරණ ප්‍රශ්න 40න් 30ක් නිවැරදිව පිළිතුරු සපයා සමත්වීම.\n4. 🚗 **පියවර 4 - ප්‍රායෝගික පුහුණුව (මාස 3ක කාලය):** නීත්‍යානුකූලව ට්‍රයල් එකට පෙර මාස 3ක් L ප්ලේට් පුහුණුව ලබාගත යුතුය. ද්විත්ව පාලක වාහන මගින් පාරේ ධාවනය හා රිවර්ස් පුහුණුව ලබාදෙයි.\n5. 🏁 **පියවර 5 - ප්‍රායෝගික ට්‍රයල් පරීක්ෂණය:** RMV පරීක්ෂක ඉදිරියේ රිවර්ස් L පාක් කිරීම, කඳු නැගීම හා පාරේ ධාවනය. සමත් වූ විගස තාවකාලික බලපත්‍රය හිමිවේ!",
+          "timestamp": "2026-11-08T13:57:19.803Z",
+          "citations": [
+            "Official RMV Licensing Process Guide",
+            "Sri Lanka Driving School Operating Framework"
+          ],
+          "suggestedQuestions": [
+            "කාර් ඔටෝ/මැනුවල් ගාස්තු කීයද?",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි",
+            "Book a Lesson"
+          ],
+          "action": "courses"
+        },
+        {
+          "id": "usr-1794146239851-g77b",
+          "role": "user",
+          "content": "fail unoth mokada wenne",
+          "timestamp": "2026-11-08T13:57:19.851Z"
+        },
+        {
+          "id": "bot-1794146247333-07zw",
+          "role": "assistant",
+          "content": "🏁 **RMV ප්‍රායෝගික ට්‍රයල් පරීක්ෂණය සහ නීති (Trial Day Guidelines):**\n\n• 👟 **අනිවාර්ය ඇඳුම් පැළඳුම් (Strict Dress Code):** සම්පූර්ණයෙන්ම ආවරණය වූ **සපත්තු (Covered Shoes / Sneakers)** පැළඳීම අනිවාර්යයි! සෙරෙප්පු හෝ සැන්ඩල් පැළඳ පැමිණියහොත් RMV පරීක්ෂකවරුන් පරීක්ෂණයට පෙරම ඔබව **අසමත් (Disqualify)** කරනු ඇත.\n• 🚗 **පරීක්ෂා කෙරෙන දෑ:** රිවර්ස් L හැඩය හෝ පෙට්ටියට පාක් කිරීම, කඳු නැගීම (Hill Start), සහ මහමග ධාවනය. යතුරුපැදි සඳහා 8 හැඩය සහ සමබරතාවය.\n• 🔄 **ට්‍රයල් එක අසමත් වුවහොත් (If You Fail):** කලබල විය යුතු නැත! සති 2 සිට 4 දක්වා කාලයකදී නැවත පෙනී සිටිය හැක (RMV නැවත පෙනී සිටීමේ ගාස්තුව රු. 500කි). ඩ්‍රයිව්මේට් ආයතනය මගින් **නොමිලේ අමතර ප්‍රායෝගික සැසි 2ක්** ලබාදී නැවත දිනයක් වෙන්කර දෙනු ලැබේ.",
+          "timestamp": "2026-11-08T13:57:27.333Z",
+          "citations": [
+            "RMV Practical Driving Test Examination Guide",
+            "FAQ Knowledge Base: trial"
+          ],
+          "suggestedQuestions": [
+            "ට්‍රයල් එකට කොපමණ කාලයක් ගතවේද?",
+            "කාර් ඔටෝ/මැනුවල් ගාස්තු කීයද?",
+            "Book a Lesson"
+          ]
+        },
+        {
+          "id": "usr-1794146247355-b16x",
+          "role": "user",
+          "content": "weekend class thiyenawada",
+          "timestamp": "2026-11-08T13:57:27.355Z"
+        },
+        {
+          "id": "bot-1794146254857-rfx9",
+          "role": "assistant",
+          "content": "📅 **ඩ්‍රයිව්මේට් පුහුණු කාලසටහන් සහ සති අන්ත පන්ති (Flexible Schedules):**\n\n• 🌟 **සති අන්ත විශේෂ කණ්ඩායම් (Weekend Batches):** රැකියාවල නියුතු අය සහ සිසුන් සඳහා සෙනසුරාදා සහ ඉරිදා දිනවල විශේෂ ප්‍රායෝගික සැසි පැවැත්වේ.\n• ⏰ **දිනපතා පුහුණු වේලාවන්:**\n  - උදෑසන සැසිය: පෙ.ව. 7:30 - පෙ.ව. 9:00\n  - දිවා සැසි: පෙ.ව. 9:30 - ප.ව. 4:00 (පැයක කාල කොටස්)\n  - සවස සැසිය: ප.ව. 4:30 - ප.ව. 6:30\n• ඔබගේ පහසු වේලාව අනුව සැසි වෙන්කරවා ගත හැක.",
+          "timestamp": "2026-11-08T13:57:34.857Z",
+          "citations": [
+            "FAQ Knowledge Base: schedules",
+            "DriveMate Academy Operating Hours"
+          ],
+          "suggestedQuestions": [
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)",
+            "පාඨමාලා ගාස්තු කීයද?",
+            "ශාඛා පිහිටි ස්ථාන"
+          ],
+          "action": "booking"
+        },
+        {
+          "id": "usr-1794156602599-vol3",
+          "role": "user",
+          "content": "gana keeyda",
+          "timestamp": "2026-11-08T16:50:02.599Z"
+        },
+        {
+          "id": "bot-1794156605869-blww",
+          "role": "assistant",
+          "content": "ආයුබෝවන්! 🚗 DriveMate Academy වෙත සාදරයෙන් පිළිගනිමු. \n\nඅපගේ රියදුරු පුහුණු පාඨමාලා සඳහා අය කෙරෙන නිල ගාස්තු විස්තර පහත පරිදි වේ:\n\n* **කාර් (මැනුවල් ගියර් - Class B Manual):** රු. 38,000 (ප්‍රායෝගික පුහුණු සැසි 20ක් සහ මැනුවල් හා ඔටෝ වාහන දෙකම පැදවීමේ හැකියාව ලැබެයි.)\n* **කාර් (ඔටෝ ගියර් - Class B Auto):** රු. 42,000 (ප්‍රායෝගික පුහුණු සැසි 18ක් ඇතුළත් වේ.)\n* **කාර් + යතුරුපැදි (Combo Package - Class B + A/A1):** රු. 48,000 (වඩාත්ම ජනප්‍රිය පැකේජය වන අතර, මෙයින් රු. 12,000කට වැඩි මුදලක් ඉතිරි කරගත හැක.)\n* **යතුරුපැදි / ස්කූටර් (Class A & A1):** රු. 18,000 (පුහුණු සැසි 12ක් ඇතුළත් වේ.)\n* **බස් සහ ලොරි (වීණා/භාණ්ඩ ප්‍රවාහන - Class C/CE):** රු. 58,000 (වයස අවුරුදු 21 සම්පූර්ණ වී තිබිය යුතුය.)\n* **බලපත්‍රධාරීන් සඳහා පුහුණු පැය (Refresher Lessons):** පැයකට රු. 2,500 බැගින්.\n\n### 💰 පහසු ගෙවීමේ ක්‍රම:\n* **වාරික ක්‍රමයට:** පළමු වාරිකය (50%) ලියාපදිංචි වන දින ද, දෙවන වාරිකය (25%) පාරේ ධාවන පුහුණුව ආරම්භ කිරීමට පෙර ද, අවසාන වාරිකය (25%) ප්‍රායෝගික පරීක්ෂණයට සති 2කට පෙර ද ගෙවිය හැක.\n* **මුළු මුදල එකවර ගෙවීමේදී:** ක්ෂණික රු. 2,000ක මුදල් වට්ටමක් හෝ අමතර ප්‍රායෝගික පුහුණු පැය 2ක් නොමිලේ ලබා ගත හැක.\n\nඔබට ලියාපදිංචි වීමට හෝ වැඩි විස්තර දැන ගැනීමට අවශ්‍ය නම්, කරුණාකර **\"",
+          "timestamp": "2026-11-08T16:50:05.869Z",
+          "citations": [
+            "Course Catalog: Light Vehicle Car (Auto Transmission)",
+            "Course Catalog: Light Vehicle Car / Dual Purpose (Manual Transmission)",
+            "Course Catalog: Combo Package: Car (Manual/Auto) + Motorcycle",
+            "Course Catalog: Motorcycle / Scooter Training (Class A & A1)"
+          ],
+          "suggestedQuestions": [
+            "පාඨමාලා ගාස්තු විස්තර",
+            "පාඨමාලාවක් වෙන්කරගන්න (Book Lesson)",
+            "වාරික ගෙවීම් ක්‍රමය"
+          ]
+        },
+        {
+          "id": "usr-1794156617497-jo08",
+          "role": "user",
+          "content": "mata license ganna one kohomada karanne",
+          "timestamp": "2026-11-08T16:50:17.497Z"
+        },
+        {
+          "id": "bot-1794156621142-t5ik",
+          "role": "assistant",
+          "content": "ආයුබෝවන්! 🚗 DriveMate Academy වෙත සාදරයෙන් පිළිගනිමු. ශ්‍රී ලංකාවේ නීත්‍යානුකූලව රියදුරු බලපත්‍රයක් (Driving License) ලබා ගැනීමට අනුගමනය කළ යුතු නිල පියවර 5 මෙන්න:\n\n* **පියවර 1: වෛද්‍ය සහතිකය ලබා ගැනීම (NTMI Medical)**\n  * **කළ යුතු දේ:** ජාතික ප්‍රවාහන වෛද්‍ය ආයතනයෙන් (NTMI - නුගේගඩ, වේරහැර හෝ ප්‍රාදේශීය මධ්‍යස්ථාන) වෛද්‍ය පරීක්ෂණය කරවා ගැනීම.\n  * **අවශ්‍යතා:** මුල් ජාතික හැඳුනුම්පත (NIC) රැගෙන යා යුතුය. (ගාස්තුව ආසන්න වශයෙන් රු. 1,500 කි. සහතිකය මාස 6ක් වලංගු වේ).\n\n* **පියවර 2: මෝටර් රථ ප්‍රවාහන දෙපාර්තමේන්තුවේ (RMV) ලියාපදිංචිය සහ 'L' බලපත්‍රය ලබා ගැනීම**\n  * **කළ යුතු දේ:** ඔබේ ඇඟිලි සලකුණු (Biometrics) ලබාදී, නිල ඉගෙනුම් රියදුරු බලපත්‍රය (Learner Permit - L Plate) ලබා ගැනීම. \n\n* **පියවර 3: ලිඛිත විභාගය (Theory Exam)**\n  * **කළ යුතු දේ:** මාර්ග නීති හා සංඥා පිළිබඳ අපගේ පන්තිවලට සහභාගී වී RMV ලිඛිත විභාගයට පෙනී සිටීම.\n  * **විස්තරය:** බහුවරණ ප්‍රශ්න 40කින් සමන්විත වන අතර, සම වීමට අවම ලකුණු 30ක් ලබා ගත යුතුය. (සිංහල, ඉංග්‍රීසි හෝ දෙමළ භාෂාවෙන් ලිවිය හැක).\n\n* **පියවර 4: ප්‍රායෝගික රිය පැදවීමේ පුහුණුව (Practical Training)**\n  * **විස්තරය:** ඩියුල්-පාලන (Dual-control) වාහන මඟින් අපගේ පළපුරුදු උපදේශකයන් යටතේ ප්‍රායෝගික පුහුණුව ලැබීම.\n  * *විශේෂ නීතිය:* ශ්‍රී ලංකා මෝටර් රථ වාහන පනතට අනුව ඉගෙනුම් බලපත්‍රය ලැබුණු දින සිට ප්‍රායෝගික පරීක්ෂණයට (Trial",
+          "timestamp": "2026-11-08T16:50:21.142Z",
+          "citations": [
+            "Official RMV Licensing Process Guide (Step 5)",
+            "Official RMV Licensing Process Guide (Step 1)",
+            "Sri Lanka Driving School Operating Framework (Step 5)",
+            "Official RMV Licensing Process Guide (Step 3)"
+          ],
+          "suggestedQuestions": [
+            "පාඨමාලා ගාස්තු විස්තර",
+            "පාඨමාලාවක් වෙන්කරගන්න (Book Lesson)",
+            "වාරික ගෙවීම් ක්‍රමය"
+          ]
         }
       ],
       "language": "en",
       "createdAt": "2026-11-08T03:20:46.444Z",
-      "lastActiveAt": "2026-11-08T03:37:11.510Z"
+      "lastActiveAt": "2026-11-08T16:50:21.146Z"
     },
     "dm-mw79nahg": {
       "sessionId": "dm-mw79nahg",
@@ -583,11 +902,477 @@
             "How does the RMV Theory Exam work?",
             "Book a Lesson"
           ]
+        },
+        {
+          "id": "usr-1794109464068-sawf",
+          "role": "user",
+          "content": "කාර් ඔටෝ vs මැනුවල්",
+          "timestamp": "2026-11-08T03:44:24.068Z"
+        },
+        {
+          "id": "bot-1794109464384-isnb",
+          "role": "assistant",
+          "content": "**What is the difference between Manual and Auto driving license in Sri Lanka? පිළිබඳ තොරතුරු:**\n\nප්‍රශ්නය: මැනුවල් සහ ඔටෝ රියදුරු බලපත්‍ර අතර වෙනස කුමක්ද?\nපිළිතුර: මැනුවල් (Manual) බලපත්‍රයක් ලබාගත් විට ඔබට ඔටෝ සහ මැනුවල් වාහන දෙකම ධාවනය කළ හැක. නමුත් ඔටෝ (Auto) බලපත්‍රයකින් ධාවනය කළ හැක්කේ ඔටෝ ගියර් වාහන පමණි.\n\n📌 **අමතර තොරතුරු:**\n• Light Vehicle Car / Dual Purpose (Manual Transmission) (B (Manual)): පාඨමාලාව: සැහැල්ලු වාහන කාර් / වෑන් (මැනුවල් ගියර්). වාහන පන්තිය: B (Manual). ගියර්: Manual. ගාස්තුව: රු. 38,000. කාලය: 8 - 14 Weeks (Flexible scheduling). ප්‍රායෝගික පුහුණු සැසි: 20. විස්තරය: ක්ලච් පාලනය, කඳු නැගීම, සහ රිවර්ස් පාක් කිරීම ඇතුළු සම්පූර්ණ මැනුවල් පුහුණුව. මැනුවල් බලපත්‍රය ලබාගත් විට ඔටෝ සහ මැනුවල් වාහන දෙකම ධාවනය කළ හැක.. අවශ්‍යතා: Age 18+, Valid National Identity Card (NIC) or Passport, NTMI Medical Certificate.\n• Combo Package: Car (Manual/Auto) + Motorcycle (B + A/A1): පාඨමාලාව: කාර් (ඔටෝ/මැනුවල්) + යතුරුපැදි Combi පාඨමාලාව. වාහන පන්තිය: B + A/A1. ගියර්: Both. ගාස්තුව: රු. 48,000. කාලය: 8 - 14 Weeks. ප්‍රායෝගික පුහුණු සැසි: 25. විස්තරය: අපගේ ජනප්‍රියම පාඨමාලාව! කාර් සහ යතුරුපැදි දෙකටම එකම ලියාපදිංචියෙන් පුහුණුව ලබාගෙන රජයේ ගාස්තු වලින් රු. 12,000කට වැඩි මුදලක් ඉතිරි කරගන්න.. අවශ්‍යතා: Age 18+, Valid NIC or Passport, NTMI Medical Fitness Certificate.\n\nඔබට වැඩිදුර විස්තර අවශ්‍ය නම් හෝ පුහුණු සැසියක් වෙන්කරවා ගැනීමට කැමති නම් අපව අමතන්න (+94 11 234 5678) හෝ ඉහත බොත්තම භාවිතා කරන්න.",
+          "timestamp": "2026-11-08T03:44:24.384Z",
+          "citations": [
+            "FAQ Knowledge Base: courses",
+            "Course Catalog: Light Vehicle Car / Dual Purpose (Manual Transmission)",
+            "Course Catalog: Combo Package: Car (Manual/Auto) + Motorcycle"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794109468138-cr5j",
+          "role": "user",
+          "content": "ලියාපදිංචියට ලියකියවිලි",
+          "timestamp": "2026-11-08T03:44:28.138Z"
+        },
+        {
+          "id": "bot-1794109468204-en1c",
+          "role": "assistant",
+          "content": "ඔබට අපගේ රියදුරු පුහුණු සැසියක් හෝ පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson) පහසුවෙන්ම ඉල්ලීමක් ඉදිරිපත් කළ හැක!\n\nපහත ඇති **\"පාඨමාලාවක් වෙන්කරවා ගන්න\" (Book Lesson)** බොත්තම ක්ලික් කර ඔබේ නම, දුරකථන අංකය සහ කැමති ශාඛාව (නුගේගොඩ, වේරහැර, මහනුවර, ගම්පහ) තෝරන්න. අපගේ කාර්ය මණ්ඩලය විනාඩි කිහිපයකින් ඔබ අමතා වේලාව තහවුරු කරනු ඇත.",
+          "timestamp": "2026-11-08T03:44:28.204Z",
+          "citations": [
+            "DriveMate Booking Workflow"
+          ],
+          "suggestedQuestions": [
+            "කාර් ඔටෝ/මැනුවල් ගාස්තු කීයද?",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?"
+          ],
+          "action": "booking"
+        },
+        {
+          "id": "usr-1794109474989-b1me",
+          "role": "user",
+          "content": "ට්‍රයල් සපත්තු රීතිය",
+          "timestamp": "2026-11-08T03:44:34.989Z"
+        },
+        {
+          "id": "bot-1794109475168-7mbo",
+          "role": "assistant",
+          "content": "**RMV Practical Trial Day Guide: Dress Code, Required Documents & Maneuvers පිළිබඳ තොරතුරු:**\n\nRMV ට්‍රයල් දිනයේ වැදගත් නීති:\n• අනිවාර්ය ඇඳුම් පැළඳුම් (Dress Code): සපත්තු පැළඳීම අනිවාර්යයි (සෙරෙප්පු/සැන්ඩල් තහනම්). විනීත ඇඳුම.\n• රැගෙන යා යුතු ලියකියවිලි: මුල් හැඳුනුම්පත, මුල් පුහුණු අවසරපත්‍රය (Learner Permit), ට්‍රයල් කාඩ්පත.\n• පරීක්ෂණ: රිවර්ස් L හැඩය පාක් කිරීම, කඳු නැගීම (Hill Start), පාරේ ධාවනය, යතුරුපැදි 8 හැඩය.\n• අසමත් වන ප්‍රධාන හේතු: එන්ජිම නතරවීම (stalling), කෝන් වල ගැටීම, යතුරුපැදියේ කකුල බිම තැබීම.\n\n📌 **අමතර තොරතුරු:**\n• How long after getting the learner's permit can I sit for the practical trial test?: ප්‍රශ්නය: පුහුණු අවසරපත්‍රය (Learner Permit) ලබාගෙන කොපමණ කාලයකට පසු ට්‍රයල් එක කළ හැකිද?\nපිළිතුර: ශ්‍රී ලංකා මෝටර් රථ ප්‍රවාහන නීතියට අනුව පුහුණු අවසරපත්‍රය (Learner Permit) ලබාගෙන අවම වශයෙන් මාස 3ක කාලයක් ගතවිය යුතුය. මෙම මාස 3 ඇතුළත සම්පූර්ණ ප්‍රායෝගික පුහුණුව අපි ලබාදෙන්නෙමු.\n• What happens if someone fails the RMV practical driving trial?: ප්‍රශ්නය: ප්‍රායෝගික ට්‍රයල් පරීක්ෂණය අසමත් වුවහොත් කුමක් සිදුවේද?\nපිළිතුර: පළමු වර අසමත් වුවහොත් කරදර විය යුතු නැත. සති කිහිපයකින් නැවත පෙනී සිටිය හැක. අප ආයතනය මගින් නොමිලේ අමතර පුහුණු සැසි 2ක් ලබාදී නැවත ට්‍රයල් දිනයක් ලබාදීමට කටයුතු කරයි.\n\nඔබට වැඩිදුර විස්තර අවශ්‍ය නම් හෝ පුහුණු සැසියක් වෙන්කරවා ගැනීමට කැමති නම් අපව අමතන්න (+94 11 234 5678) හෝ ඉහත බොත්තම භාවිතා කරන්න.",
+          "timestamp": "2026-11-08T03:44:35.168Z",
+          "citations": [
+            "RMV Practical Driving Test Examination Guide",
+            "FAQ Knowledge Base: trial"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794109479129-6ix8",
+          "role": "user",
+          "content": "time",
+          "timestamp": "2026-11-08T03:44:39.129Z"
+        },
+        {
+          "id": "bot-1794109479192-bx3c",
+          "role": "assistant",
+          "content": "**How long after getting the learner's permit can I sit for the practical trial test? පිළිබඳ තොරතුරු:**\n\nප්‍රශ්නය: පුහුණු අවසරපත්‍රය (Learner Permit) ලබාගෙන කොපමණ කාලයකට පසු ට්‍රයල් එක කළ හැකිද?\nපිළිතුර: ශ්‍රී ලංකා මෝටර් රථ ප්‍රවාහන නීතියට අනුව පුහුණු අවසරපත්‍රය (Learner Permit) ලබාගෙන අවම වශයෙන් මාස 3ක කාලයක් ගතවිය යුතුය. මෙම මාස 3 ඇතුළත සම්පූර්ණ ප්‍රායෝගික පුහුණුව අපි ලබාදෙන්නෙමු.\n\n\nඔබට වැඩිදුර විස්තර අවශ්‍ය නම් හෝ පුහුණු සැසියක් වෙන්කරවා ගැනීමට කැමති නම් අපව අමතන්න (+94 11 234 5678) හෝ ඉහත බොත්තම භාවිතා කරන්න.",
+          "timestamp": "2026-11-08T03:44:39.192Z",
+          "citations": [
+            "FAQ Knowledge Base: trial"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794137371471-wnhk",
+          "role": "user",
+          "content": "CAN U HELP ME",
+          "timestamp": "2026-11-08T11:29:31.471Z"
+        },
+        {
+          "id": "bot-1794137371753-49s6",
+          "role": "assistant",
+          "content": "**Can I pay the course fee in installments? පිළිබඳ තොරතුරු:**\n\nප්‍රශ්නය: පාඨමාලා ගාස්තුව වාරික වශයෙන් ගෙවිය හැකිද?\nපිළිතුර: ඔව්! ඉතා පහසු වාරික 3කින් ගෙවිය හැක: ලියාපදිංචි වන විට 50%ක්, ප්‍රායෝගික පුහුණුව ආරම්භ කරන විට 25%ක්, සහ ට්‍රයල් එකට සති 2කට පෙර ඉතිරි 25%ක්. සම්පූර්ණ මුදල එකවර ගෙවන්නේ නම් රු. 2,000ක වට්ටමක් ලැබේ.\n\n📌 **අමතර තොරතුරු:**\n• How long after getting the learner's permit can I sit for the practical trial test?: ප්‍රශ්නය: පුහුණු අවසරපත්‍රය (Learner Permit) ලබාගෙන කොපමණ කාලයකට පසු ට්‍රයල් එක කළ හැකිද?\nපිළිතුර: ශ්‍රී ලංකා මෝටර් රථ ප්‍රවාහන නීතියට අනුව පුහුණු අවසරපත්‍රය (Learner Permit) ලබාගෙන අවම වශයෙන් මාස 3ක කාලයක් ගතවිය යුතුය. මෙම මාස 3 ඇතුළත සම්පූර්ණ ප්‍රායෝගික පුහුණුව අපි ලබාදෙන්නෙමු.\n• Commercial & Heavy Vehicle Training (Lorry / Bus) (C / CE): පාඨමාලාව: බර වාහන පුහුණුව (ලොරි සහ බස් රථ). වාහන පන්තිය: C / CE. ගියර්: Manual. ගාස්තුව: රු. 58,000. කාලය: 10 - 16 Weeks. ප්‍රායෝගික පුහුණු සැසි: 24. විස්තරය: වෘත්තීය බර වාහන රියදුරු පුහුණුව. අයදුම්කරු අවුරුදු 21 සම්පූර්ණ විය යුතු අතර සැහැල්ලු වාහන බලපත්‍රය වසර 2ක් හෝ ඊට වැඩි කාලයක් සතුව තිබිය යුතුය.. අවශ්‍යතා: Age 21+, Light vehicle license held for minimum 2 years, Commercial Grade NTMI Medical.\n\nඔබට වැඩිදුර විස්තර අවශ්‍ය නම් හෝ පුහුණු සැසියක් වෙන්කරවා ගැනීමට කැමති නම් අපව අමතන්න (+94 11 234 5678) හෝ ඉහත බොත්තම භාවිතා කරන්න.",
+          "timestamp": "2026-11-08T11:29:31.753Z",
+          "citations": [
+            "FAQ Knowledge Base: fees",
+            "FAQ Knowledge Base: trial",
+            "Course Catalog: Commercial & Heavy Vehicle Training (Lorry / Bus)"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794137400190-dbdt",
+          "role": "user",
+          "content": "kochchra kalayakda",
+          "timestamp": "2026-11-08T11:30:00.190Z"
+        },
+        {
+          "id": "bot-1794137400392-ewcs",
+          "role": "assistant",
+          "content": "සමාවන්න, ඔබ විමසූ කරුණ පිළිබඳ නිශ්චිත තොරතුරක් ඩ්‍රයිව්මේට් රියදුරු පාසලේ දත්ත පද්ධතිය තුළ සටහන්ව නොමැත.\n\nරියදුරු පාසලේ නීති සහ ගාස්තු පිළිබඳ වැරදි තොරතුරු ලබානොදීම අපගේ ප්‍රතිපත්තියයි. කරුණාකර වැඩිදුර තොරතුරු සඳහා අපගේ නිල දුරකථන අංකය (+94 11 234 5678 / WhatsApp +94 77 123 4567) අමතන්න හෝ අප වෙත විමසීමක් (Enquiry) යොමු කරන්න.",
+          "timestamp": "2026-11-08T11:30:00.392Z",
+          "citations": [
+            "DriveMate Customer Support Policy"
+          ],
+          "suggestedQuestions": [
+            "කාර් ඔටෝ සහ මැනුවල් පාඨමාලා ගාස්තු",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?",
+            "ශාඛා පිහිටි ස්ථාන සහ දුරකථන අංක"
+          ],
+          "action": "enquiry"
+        },
+        {
+          "id": "usr-1794137411241-p0nj",
+          "role": "user",
+          "content": "time",
+          "timestamp": "2026-11-08T11:30:11.241Z"
+        },
+        {
+          "id": "bot-1794137411520-m2yi",
+          "role": "assistant",
+          "content": "**How long after getting the learner's permit can I sit for the practical trial test? පිළිබඳ තොරතුරු:**\n\nප්‍රශ්නය: පුහුණු අවසරපත්‍රය (Learner Permit) ලබාගෙන කොපමණ කාලයකට පසු ට්‍රයල් එක කළ හැකිද?\nපිළිතුර: ශ්‍රී ලංකා මෝටර් රථ ප්‍රවාහන නීතියට අනුව පුහුණු අවසරපත්‍රය (Learner Permit) ලබාගෙන අවම වශයෙන් මාස 3ක කාලයක් ගතවිය යුතුය. මෙම මාස 3 ඇතුළත සම්පූර්ණ ප්‍රායෝගික පුහුණුව අපි ලබාදෙන්නෙමු.\n\n\nඔබට වැඩිදුර විස්තර අවශ්‍ය නම් හෝ පුහුණු සැසියක් වෙන්කරවා ගැනීමට කැමති නම් අපව අමතන්න (+94 11 234 5678) හෝ ඉහත බොත්තම භාවිතා කරන්න.",
+          "timestamp": "2026-11-08T11:30:11.520Z",
+          "citations": [
+            "FAQ Knowledge Base: trial"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද?",
+            "NTMI වෛද්‍ය පරීක්ෂණය කරන්නේ කොහොමද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794146336437-lh9s",
+          "role": "user",
+          "content": "hi",
+          "timestamp": "2026-11-08T13:58:56.437Z"
+        },
+        {
+          "id": "bot-1794146342183-h8yw",
+          "role": "assistant",
+          "content": "Hello and welcome to **DriveMate Academy Sri Lanka**! 🚗\n\nI am your AI assistant, ready to help you with our driving courses, official RMV licensing procedures, NTMI medical tests, and lesson bookings. How can I assist your driving journey today?",
+          "timestamp": "2026-11-08T13:59:02.183Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka"
+          ],
+          "suggestedQuestions": [
+            "What are the course fees?",
+            "What documents are needed to register?",
+            "Can I pay in installments?",
+            "Book a Driving Lesson"
+          ]
+        },
+        {
+          "id": "usr-1794146358073-gmhe",
+          "role": "user",
+          "content": "heta open da",
+          "timestamp": "2026-11-08T13:59:18.073Z"
+        },
+        {
+          "id": "bot-1794146362151-ja63",
+          "role": "assistant",
+          "content": "Here is the verified information regarding **Nugegoda Main Campus Branch**:\n\nDriveMate Branch: Nugegoda Main Campus. Address: 142 High Level Road, Nugegoda (Near Supermarket junction). Phone: +94 11 282 1234. Working Hours: Monday to Sunday: 7:30 AM – 6:30 PM. WhatsApp: +94 77 123 4567. Email: info@drivemate.lk.\n\n📌 **Related Details:**\n• **Aravinda Learners (Colombo)**: Aravinda Learners in Colombo. Main Branch: 121/2 High Level Rd, Maharagama. Branches: Maharagama, Kottawa, Homagama. Phone/WhatsApp: +94 11 284 3322. Experience: 30 years. Rating: 4.8 (1650 reviews). Classes taught: Class B (Auto/Manual), Class A (Bike), Class C (Heavy). Key features: High Level Road Practical Drills, Heavy Vehicle Training Ground, Installment Payments Available. Popular Packages: Auto Car Standard: LKR 41,000 (18 lessons); Manual Car Standard: LKR 37,500 (20 lessons); Heavy Lorry/Bus Course: LKR 57,000 (22 lessons).\n• **Dasuni Driving School & Learners (Kandy)**: Dasuni Driving School & Learners in Kandy. Main Branch: Gatambe Junction, Kandy. Branches: Gatambe (Head Office), Peradeniya, Katugastota, Kandy City. Phone/WhatsApp: +94 81 238 8899. Experience: 32 years. Rating: 4.9 (2450 reviews). Classes taught: Class B Auto, Class B Manual, Class A Bike, Class B1 Three Wheeler, Class C/D Heavy Bus/Lorry. Key features: Kandy Hill Country Road Specialists (Hill start & Hairpin bends), Peradeniya Trial Ground Simulation, Female Instructors Available. Popular Packages: Hill Country Auto Car: LKR 43,000 (18 lessons); Hill Country Manual Car: LKR 39,000 (20 lessons); Car + Bike Kandy Special: LKR 49,000 (25 lessons).\n• **How Driving Schools Work (Step 5): Practical Trial Test Day & Temporary License**: How Sri Lankan Driving Schools Work - Step 5: Practical Trial Test Day & Temporary License.\nDetailed Process: Candidate appears before the RMV Motor Vehicle Examiner (MVE) at the official trial ground (e.g. Werahera trial ground). The driving school provides the test vehicle. Pass the reverse \"L\" / parallel parking cones and road drive. Passing candidate receives a temporary permit sheet immediately; permanent smart card arrives by registered post.\nPractical Candidate Tip: Strict dress code: full covered shoes or sneakers are mandatory. Slippers or sandals result in immediate test disqualification!\n\nFeel free to ask any follow-up questions or click **Book a Lesson** to get started!",
+          "timestamp": "2026-11-08T13:59:22.151Z",
+          "citations": [
+            "Branch Directory: Nugegoda Main Campus",
+            "Sri Lanka Driving Schools Directory: Aravinda Learners",
+            "Sri Lanka Driving Schools Directory: Dasuni Driving School & Learners",
+            "Sri Lanka Driving School Operating Framework (Step 5)"
+          ],
+          "suggestedQuestions": [
+            "Can I pay in installments?",
+            "How does the RMV Theory Exam work?",
+            "Book a Lesson"
+          ]
+        },
+        {
+          "id": "usr-1794146386808-bimz",
+          "role": "user",
+          "content": "gana keeyda",
+          "timestamp": "2026-11-08T13:59:46.808Z"
+        },
+        {
+          "id": "bot-1794146387728-9nbf",
+          "role": "assistant",
+          "content": "📋 **ඩ්‍රයිව්මේට් රියදුරු පාසලේ පාඨමාලා ගාස්තු විස්තර (DriveMate Course Fees):**\n\n• 🚗 **කාර් ඔටෝ (Auto Car):** LKR **42,000** *(ප්‍රායෝගික සැසි 18ක් + ට්‍රයල් වාහනය)*\n• 🚗 **කාර් මැනුවල් (Manual Car):** LKR **38,000** *(ප්‍රායෝගික සැසි 20ක් + ට්‍රයල් වාහනය)*\n• 🏍️ **කාර් + බයික් Combi පැකේජය:** LKR **48,000** *(රු. 12,000ක් ඉතිරි කරගත හැක)*\n• 🏍️ **යතුරුපැදි පමණක් (Bike Only):** LKR **18,000** *(ප්‍රායෝගික සැසි 12ක්)*\n• 🚚 **බර වාහන (Heavy Lorry/Bus):** LKR **58,000** *(අවුරුදු 21+ විය යුතුය)*\n• ⏱️ **බලපත්‍රලාභීන්ට පැයක පුහුණුව (Hourly):** LKR **2,500/පැය**\n\n💳 **පහසු වාරික 3කින් ගෙවීමේ ක්‍රමය (Installments):**\n1. ලියාපදිංචි වන දින: 50%\n2. ප්‍රායෝගික පුහුණුව අරඹද්දී: 25%\n3. ට්‍රයල් පරීක්ෂණයට සති 2කට පෙර: 25%\n*(එකවර සම්පූර්ණ මුදල ගෙවීමේදී රු. 2,000ක ක්ෂණික වට්ටමක් ලැබේ!)*",
+          "timestamp": "2026-11-08T13:59:47.728Z",
+          "citations": [
+            "DriveMate Course Fee Catalog",
+            "Installment Policy"
+          ],
+          "suggestedQuestions": [
+            "වාරික වශයෙන් ගෙවිය හැකිද? (Installment Plan)",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?",
+            "පාඨමාලාවක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ],
+          "action": "booking"
+        },
+        {
+          "id": "usr-1794146411166-at9t",
+          "role": "user",
+          "content": "kohomada register wenne",
+          "timestamp": "2026-11-08T14:00:11.166Z"
+        },
+        {
+          "id": "bot-1794146412050-jqw7",
+          "role": "assistant",
+          "content": "ආයුබෝවන්! මම **ඩ්‍රයිව්මේට් AI (DriveMate AI)** රියදුරු සහායකයා. \n\nඔබට ශ්‍රී ලංකාවේ රියදුරු බලපත්‍රයක් ලබාගැනීම, පාඨමාලා ගාස්තු (\"ගාන කීයද / gana keeyda\"), ලිඛිත විභාගය, NTMI මෙඩිකල්, හෝ ප්‍රායෝගික පුහුණුව පිළිබඳ ඕනෑම දෙයක් සිංහලෙන් හෝ Singlish වලින් විමසිය හැක. අද ඔබට කුමන තොරතුරුද අවශ්‍ය?",
+          "timestamp": "2026-11-08T14:00:12.050Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka"
+          ],
+          "suggestedQuestions": [
+            "කාර් ඔටෝ/මැනුවල් ගාස්තු කීයද?",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?",
+            "වාරික වශයෙන් ගෙවිය හැකිද? (Installments)",
+            "පුහුණු සැසියක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794146438437-mcrq",
+          "role": "user",
+          "content": "kohomada register wenne",
+          "timestamp": "2026-11-08T14:00:38.437Z"
+        },
+        {
+          "id": "bot-1794146446260-muiu",
+          "role": "assistant",
+          "content": "ආයුබෝවන්! මම **ඩ්‍රයිව්මේට් AI (DriveMate AI)** රියදුරු සහායකයා. \n\nඔබට ශ්‍රී ලංකාවේ රියදුරු බලපත්‍රයක් ලබාගැනීම, පාඨමාලා ගාස්තු (\"ගාන කීයද / gana keeyda\"), ලිඛිත විභාගය, NTMI මෙඩිකල්, හෝ ප්‍රායෝගික පුහුණුව පිළිබඳ ඕනෑම දෙයක් සිංහලෙන් හෝ Singlish වලින් විමසිය හැක. අද ඔබට කුමන තොරතුරුද අවශ්‍ය?",
+          "timestamp": "2026-11-08T14:00:46.260Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka"
+          ],
+          "suggestedQuestions": [
+            "කාර් ඔටෝ/මැනුවල් ගාස්තු කීයද?",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?",
+            "වාරික වශයෙන් ගෙවිය හැකිද? (Installments)",
+            "පුහුණු සැසියක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794146459860-ox1n",
+          "role": "user",
+          "content": "hi",
+          "timestamp": "2026-11-08T14:00:59.860Z"
+        },
+        {
+          "id": "bot-1794146461032-h5ao",
+          "role": "assistant",
+          "content": "Hello and welcome to **DriveMate Academy Sri Lanka**! 🚗\n\nI am your AI assistant, ready to help you with our driving courses, official RMV licensing procedures, NTMI medical tests, and lesson bookings. How can I assist your driving journey today?",
+          "timestamp": "2026-11-08T14:01:01.032Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka"
+          ],
+          "suggestedQuestions": [
+            "What are the course fees?",
+            "What documents are needed to register?",
+            "Can I pay in installments?",
+            "Book a Driving Lesson"
+          ]
+        },
+        {
+          "id": "usr-1794146475134-sgxt",
+          "role": "user",
+          "content": "kohomada register wenne",
+          "timestamp": "2026-11-08T14:01:15.134Z"
+        },
+        {
+          "id": "bot-1794146475974-3agi",
+          "role": "assistant",
+          "content": "ආයුබෝවන්! මම **ඩ්‍රයිව්මේට් AI (DriveMate AI)** රියදුරු සහායකයා. \n\nඔබට ශ්‍රී ලංකාවේ රියදුරු බලපත්‍රයක් ලබාගැනීම, පාඨමාලා ගාස්තු (\"ගාන කීයද / gana keeyda\"), ලිඛිත විභාගය, NTMI මෙඩිකල්, හෝ ප්‍රායෝගික පුහුණුව පිළිබඳ ඕනෑම දෙයක් සිංහලෙන් හෝ Singlish වලින් විමසිය හැක. අද ඔබට කුමන තොරතුරුද අවශ්‍ය?",
+          "timestamp": "2026-11-08T14:01:15.974Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka"
+          ],
+          "suggestedQuestions": [
+            "කාර් ඔටෝ/මැනුවල් ගාස්තු කීයද?",
+            "ලියාපදිංචි වීමට අවශ්‍ය ලියකියවිලි මොනවාද?",
+            "වාරික වශයෙන් ගෙවිය හැකිද? (Installments)",
+            "පුහුණු සැසියක් වෙන්කරවා ගැනීමට (Book Lesson)"
+          ]
+        },
+        {
+          "id": "usr-1794146491099-wj7i",
+          "role": "user",
+          "content": "how to register",
+          "timestamp": "2026-11-08T14:01:31.099Z"
+        },
+        {
+          "id": "bot-1794146492077-vb2l",
+          "role": "assistant",
+          "content": "You can submit a lesson booking or course registration request right here!\n\nClick the **\"Book a Lesson\"** button to choose your preferred course (Auto, Manual, Bike, Combo), branch (Nugegoda, Werahera, Kandy, Gampaha), and convenient time slot. Our team will verify instructor availability and contact you promptly.",
+          "timestamp": "2026-11-08T14:01:32.077Z",
+          "citations": [
+            "DriveMate Booking Workflow"
+          ],
+          "suggestedQuestions": [
+            "What are the course fees?",
+            "What documents are needed to register?",
+            "Payment installment plans"
+          ],
+          "action": "booking"
+        },
+        {
+          "id": "usr-1794146527132-ynuk",
+          "role": "user",
+          "content": "rules",
+          "timestamp": "2026-11-08T14:02:07.133Z"
+        },
+        {
+          "id": "bot-1794146528414-8csc",
+          "role": "assistant",
+          "content": "I am DriveMate AI, specialized in verified information for DriveMate Academy Sri Lanka.\n\nI could not find a confirmed answer to that specific question in our approved driving school knowledge base. To ensure you receive 100% accurate information, please contact our student support team directly at **+94 11 234 5678** (WhatsApp: **+94 77 123 4567**) or submit an enquiry!",
+          "timestamp": "2026-11-08T14:02:08.414Z",
+          "citations": [
+            "DriveMate Customer Support Policy"
+          ],
+          "suggestedQuestions": [
+            "What are the course fees?",
+            "What documents are required to register?",
+            "Our branch locations & hours"
+          ],
+          "action": "enquiry"
+        },
+        {
+          "id": "usr-1794146536152-gpvk",
+          "role": "user",
+          "content": "rules",
+          "timestamp": "2026-11-08T14:02:16.152Z"
+        },
+        {
+          "id": "bot-1794146537752-v68f",
+          "role": "assistant",
+          "content": "I am DriveMate AI, specialized in verified information for DriveMate Academy Sri Lanka.\n\nI could not find a confirmed answer to that specific question in our approved driving school knowledge base. To ensure you receive 100% accurate information, please contact our student support team directly at **+94 11 234 5678** (WhatsApp: **+94 77 123 4567**) or submit an enquiry!",
+          "timestamp": "2026-11-08T14:02:17.752Z",
+          "citations": [
+            "DriveMate Customer Support Policy"
+          ],
+          "suggestedQuestions": [
+            "What are the course fees?",
+            "What documents are required to register?",
+            "Our branch locations & hours"
+          ],
+          "action": "enquiry"
+        },
+        {
+          "id": "usr-1794157610725-grjd",
+          "role": "user",
+          "content": "hi",
+          "timestamp": "2026-11-08T17:06:50.725Z"
+        },
+        {
+          "id": "bot-1794157620330-bpj6",
+          "role": "assistant",
+          "content": "Hello and welcome to **DriveMate Academy Sri Lanka**! 🚗\n\nI am your AI assistant, ready to help you with our driving courses, official RMV licensing procedures, NTMI medical tests, and lesson bookings. How can I assist your driving journey today?",
+          "timestamp": "2026-11-08T17:07:00.330Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka"
+          ],
+          "suggestedQuestions": [
+            "What are the course fees?",
+            "What documents are needed to register?",
+            "Can I pay in installments?",
+            "Book a Driving Lesson"
+          ]
+        },
+        {
+          "id": "usr-1794157635481-zodo",
+          "role": "user",
+          "content": "help",
+          "timestamp": "2026-11-08T17:07:15.481Z"
+        },
+        {
+          "id": "bot-1794157637862-joih",
+          "role": "assistant",
+          "content": "Hello! I am **DriveMate AI**, your official virtual assistant for **DriveMate Academy Sri Lanka** – a premier government-registered driving school. \n\nHow can I help you today? Here are some popular things I can assist you with:\n\n* 🚗 **Course Packages & Fees:** Car (Auto/Manual), Motorcycle, Combo, and Heavy Vehicles.\n* 💳 **Payment & Installments:** Easy 3-stage payment plans and cash discounts.\n* 📋 **Requirements & Medicals:** Documents needed, NTMI medical test details, and age limits (Minimum age 18 for cars/bikes).\n* 📅 **Licensing Roadmap:** 5-step process from Learner Permit to the RMV Practical Trial, including the mandatory 3-month waiting period.\n* ⏰ **Schedules:** Weekend batches, weekday morning/evening slots, and female instructor availability.\n\nFeel free to ask your questions in English, Sinhala, or Singlish (e.g., *\"gana keeyda\"*, *\"vibhageta prashna keeyak enawada\"*, *\"fail unoth mokada wenne\"*). \n\nIf you are ready to start, you can easily **Book a Lesson** or reach out to us directly:\n* **Hotline:** +94 11 234 5678\n* **WhatsApp:** +94 77 123 4567\n* **Branches:** Nugegoda, Werahera, Kandy, and Gampaha.\n\nHow can I guide you today?",
+          "timestamp": "2026-11-08T17:07:17.862Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka (Gemini AI)"
+          ],
+          "suggestedQuestions": [
+            "View Course Fees",
+            "Book a Lesson",
+            "Installment Plans"
+          ]
+        },
+        {
+          "id": "usr-1794157666266-acm8",
+          "role": "user",
+          "content": "welawa",
+          "timestamp": "2026-11-08T17:07:46.266Z"
+        },
+        {
+          "id": "bot-1794157668254-xf2f",
+          "role": "assistant",
+          "content": "Hello! \"Welawa\" (Time/Schedule) කියන්නේ ඔබ අසන්නේ අපේ පන්ති වේලාවන් (Class Schedules) ගැන වෙන්න ඇති. \n\nDriveMate Academy ආයතනයේ පුහුණුකිරීම් සහ පන්ති සඳහා පහත සඳහන් වේලාවන් වෙන් කරවා ගත හැක:\n\n* **සති දිනවල (Weekday Slots):** \n  * උදෑසන සැසි: පෙ.ව. 7:30 සිට පෙ.ව. 9:00 දක්වා\n  * සවස සැසි: ප.ව. 4:30 සිට ප.ව. 6:30 දක්වා\n\n* **සති අන්ත පන්ති (Weekend Batches):** \n  * රැකියා කරන අය සහ විශ්වවිද්‍යාල සිසුන් වෙනුවෙන්ම සෙනසුරාදා සහ ඉරිදා දිනවල විශේෂ පන්ති පැවැත්වේ.\n\nඔබට ගැළපෙන වේලාවක් වෙන් කරවා ගැනීමට හෝ වැඩි විස්තර දැනගැනීමට පහත අංක හරහා අපව සම්බන්ධ කරගන්න:\n* **දුරකථන අංකය:** +94 11 234 5678\n* **WhatsApp අංකය:** +94 77 123 4567\n\nඅපගේ නුගේගොඩ, වෙہرහැර, මහනුවර හෝ ගම්පහ ශාඛාවකින් ලියාපදිංචි වීමට ඔබට දැන්ම **\"Book a Lesson\"** ක්ලික් කරන්නත් පුළුවන්!",
+          "timestamp": "2026-11-08T17:07:48.254Z",
+          "citations": [
+            "DriveMate Academy Sri Lanka (Gemini AI)"
+          ],
+          "suggestedQuestions": [
+            "View Course Fees",
+            "Book a Lesson",
+            "Installment Plans"
+          ]
+        },
+        {
+          "id": "usr-1794157684360-o3ys",
+          "role": "user",
+          "content": "ow",
+          "timestamp": "2026-11-08T17:08:04.360Z"
+        },
+        {
+          "id": "bot-1794157687356-omfh",
+          "role": "assistant",
+          "content": "ආයුබෝවන්! 🚗 DriveMate Academy වෙත සාදරයෙන් පිළිගනිමු. \n\nඔබ \"Ow\" (ඔව්) ප්‍රකාශ කරමින් අපෙන් යම් තොරතුරක් හෝ සහයෝගයක් අපේක්ෂා කරන බව පෙනේ. ඔබට රියදුරු බලපත්‍රයක් (Driving License) ලබාගැනීම සම්බන්ධයෙන් පහත සඳහන් කුමන කරුණක් ගැනද දැනගැනීමට අවශ්‍ය?\n\n* **පාඨමාලා ගාස්තු සහ පැකේජ (Course Packages & Fees)**\n* **අවශ්‍ය ලියකියවිලි සහ වයස් සීමාව (Required Documents & Age Limit)**\n* **ලිඛිත විභාගය සහ ප්‍රශ්න සංඛ්‍යාව (RMV Theory Exam - ප්‍රශ්න 40යි, ලකුණු 30ක් සමත්වීමට)**\n* **ට්‍රයල් පරීක්ෂණය සහ මාස 3ක නීතිමය කාල සීමාව (Practical Trial & 3-Month Waiting Period)**\n* **විනාඩි 2",
+          "timestamp": "2026-11-08T17:08:07.356Z",
+          "citations": [
+            "FAQ Knowledge Base: trial",
+            "FAQ Knowledge Base: exam",
+            "Sri Lanka Driving School Operating Framework (Step 1)",
+            "Sri Lanka Driving School Operating Framework (Step 2)"
+          ],
+          "suggestedQuestions": [
+            "View Course Fees",
+            "Book a Lesson",
+            "Installment Plans"
+          ]
+        },
+        {
+          "id": "usr-1794157711965-fxgj",
+          "role": "user",
+          "content": "wayasa",
+          "timestamp": "2026-11-08T17:08:31.965Z"
+        },
+        {
+          "id": "bot-1794157714400-6sos",
+          "role": "assistant",
+          "content": "ශ්‍රී ලංකාවේ රියදුරු බලපත්‍රයක් ලබාගැනීමට අවශ්‍ය අවම වයස් සීමාවන් පහත පරිදි වේ:\n\n* **සැහැල්ලු වාහන (කාර්, වෑන්, සහ යතුරුපැදි - Class A / B):** \n  * අවම වයස **අවුරුදු 18ක්** සම්පූර්ණ වී තිබිය යුතුය.\n  * නමුත්, ඔබට **අවුරුදු 17 මාස 10ක්** සම්පූර්ණ වූ සැණින් DriveMate Academy වෙත පැමිණ ලියාපදිංචි වී ප්‍රශ්න පත්‍ර පන්ති (Theory) ආරම්භ කළ හැක.\n\n* **බර වාහන (බස් සහ ලොරි - Class C / CE):** \n  * අවම වයස **අවුරුදු 21ක්** සම්පූර්ණ වී තිබිය යුතුය.\n  * මීට අමතරව, අවම වශයෙන් වසර 2ක්වත් පැරණි සැහැල්ලු වාහන රියදුරු බලපත්‍රයක් (Light Vehicle License) සතුව තිබීම අනිවාර්ය වේ.\n\nඔබට මේ පිළිබඳව වැඩිදුර විස්තර දැන ගැනීමට හෝ ලියාපදිංචි වීමට අවශ්‍ය නම්, අපගේ හොට්ලයින් අංකය (**+94 11 234 5678**) හෝ WhatsApp (**+94 77 123 4567**) හරහා සම්බන්ධ වන්න!",
+          "timestamp": "2026-11-08T17:08:34.400Z",
+          "citations": [
+            "FAQ Knowledge Base: requirements",
+            "Course Catalog: Light Vehicle Car (Auto Transmission)",
+            "Course Catalog: Commercial & Heavy Vehicle Training (Lorry / Bus)",
+            "FAQ Knowledge Base: registration"
+          ],
+          "suggestedQuestions": [
+            "පාඨමාලා ගාස්තු විස්තර",
+            "පාඨමාලාවක් වෙන්කරගන්න (Book Lesson)",
+            "වාරික ගෙවීම් ක්‍රමය"
+          ]
         }
       ],
       "language": "en",
       "createdAt": "2026-11-08T03:22:11.084Z",
-      "lastActiveAt": "2026-11-08T03:22:50.708Z"
+      "lastActiveAt": "2026-11-08T17:08:34.404Z"
     }
   }
 }

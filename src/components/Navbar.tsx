@@ -57,38 +57,29 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
           </div>
 
-          {/* Quick Center Nav for Desktop */}
-          <div className="hidden lg:flex items-center gap-1 bg-slate-100/80 p-1 rounded-xl border border-slate-200">
+          {/* Center Quick Nav Pills */}
+          <div className="hidden md:flex items-center gap-1.5 bg-slate-100/90 p-1 rounded-xl border border-slate-200/80">
             <button
               type="button"
               onClick={onOpenSchools}
-              className="px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-brand-600 hover:bg-white rounded-lg transition flex items-center gap-1"
+              className="px-3 py-1 text-xs font-medium text-slate-700 hover:text-brand-600 hover:bg-white rounded-lg transition"
             >
-              <span>🏫 {isSi ? 'රියදුරු පාසල්' : 'Schools'}</span>
+              🏫 {isSi ? 'රියදුරු පාසල්' : 'Schools'}
             </button>
             <button
               type="button"
               onClick={onOpenRoadmap}
-              className="px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-brand-600 hover:bg-white rounded-lg transition flex items-center gap-1"
+              className="px-3 py-1 text-xs font-medium text-slate-700 hover:text-brand-600 hover:bg-white rounded-lg transition"
             >
-              <span>🗺️ {isSi ? 'බලපත්‍ර මගපෙන්වීම' : 'License Guide'}</span>
+              🗺️ {isSi ? 'මගපෙන්වීම' : 'Guide'}
             </button>
             <button
               type="button"
               onClick={onOpenCalculator}
-              className="px-2.5 py-1 text-xs font-semibold text-slate-700 hover:text-brand-600 hover:bg-white rounded-lg transition flex items-center gap-1"
+              className="px-3 py-1 text-xs font-medium text-slate-700 hover:text-brand-600 hover:bg-white rounded-lg transition"
             >
-              <span>🧮 {isSi ? 'ගාස්තු ගණනය' : 'Calculator'}</span>
+              🧮 {isSi ? 'ගාස්තු ගණකය' : 'Calculator'}
             </button>
-          </div>
-
-          {/* Quick Hotline Pill */}
-          <div className="hidden md:flex items-center gap-2 px-3 py-1 bg-slate-50 border border-slate-200 rounded-full text-xs text-slate-600">
-            <Phone className="w-3.5 h-3.5 text-brand-600" />
-            <span className="font-medium">Hotline:</span>
-            <a href="tel:+94112345678" className="font-semibold text-slate-800 hover:text-brand-600">
-              011 234 5678
-            </a>
           </div>
 
           {/* Right Action Controls */}

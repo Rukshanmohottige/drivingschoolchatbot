@@ -16,13 +16,6 @@ import { FeeCalculatorModal } from './FeeCalculatorModal';
 import {
   Car,
   ShieldCheck,
-  Award,
-  Clock,
-  Sparkles,
-  Calendar,
-  HelpCircle,
-  Phone,
-  FileText,
   Compass,
   Calculator,
   Building2
@@ -198,125 +191,54 @@ export const ChatWindow: React.FC = () => {
       {/* Main Container */}
       <main className="flex-1 overflow-hidden flex flex-col max-w-5xl w-full mx-auto p-2 sm:p-4">
         <div className="flex-1 overflow-y-auto px-2 sm:px-4 py-2 space-y-4">
-          {/* Welcome Feature Card */}
-          <div className="bg-gradient-to-r from-brand-900 via-brand-800 to-slate-900 text-white rounded-2xl p-5 sm:p-6 shadow-md relative overflow-hidden">
-            <div className="absolute right-0 top-0 translate-x-8 -translate-y-8 w-48 h-48 bg-brand-500/10 rounded-full blur-2xl pointer-events-none" />
-
-            <div className="relative z-10">
-              <div className="flex flex-wrap items-center gap-2 mb-2">
-                <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-brand-500/30 text-brand-200 border border-brand-400/20 flex items-center gap-1">
-                  <ShieldCheck className="w-3.5 h-3.5 text-brand-300" />
-                  Government DMT/RMV Certified
-                </span>
-                <span className="px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-white/10 text-slate-200 border border-white/10">
-                  🇱🇰 Sri Lanka
-                </span>
+          {/* Minimalist Welcome Card (shown only before conversation begins) */}
+          {messages.length <= 1 && (
+            <div className="bg-white rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-2xs text-center max-w-xl mx-auto my-3 transition-all">
+              <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-brand-700 to-brand-500 text-white flex items-center justify-center mx-auto mb-3 shadow-md shadow-brand-500/20">
+                <Car className="w-6 h-6 stroke-[2.2]" />
               </div>
-
-              <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white mb-1.5">
-                {isSi ? 'ඩ්‍රයිව්මේට් රියදුරු පුහුණු AI සහායකයා' : 'DriveMate Driving School Virtual Assistant'}
-              </h1>
-              <p className="text-xs sm:text-sm text-slate-300 max-w-2xl leading-relaxed">
+              <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200 mb-2">
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+                <span>{isSi ? 'නිල RMV රියදුරු සහායකයා' : 'DMT/RMV Certified Assistant'}</span>
+              </div>
+              <h2 className="text-lg sm:text-xl font-bold text-slate-900 tracking-tight">
+                {isSi ? 'ආයුබෝවන්! අද ඔබට අවශ්‍ය කුමන තොරතුරුද?' : 'Welcome! How can I assist you today?'}
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-500 mt-1 max-w-md mx-auto">
                 {isSi
-                  ? 'නිල රියදුරු පාඨමාලා ගාස්තු, වාරික ගෙවීම් ක්‍රම, ලිඛිත විභාග සූදානම, NTMI වෛද්‍ය පරීක්ෂණ සහ ට්‍රයල් පුහුණුව පිළිබඳ සත්‍යාපිත තොරතුරු ලබාගන්න.'
-                  : 'Grounded in official Sri Lankan driving school guidelines. Ask about course packages, installment plans, NTMI medical fitness exams, and RMV trial test requirements.'}
+                  ? 'පාඨමාලා ගාස්තු ("ගාන කීයද"), වාරික, ලිඛිත විභාගය, හෝ ට්‍රයල් නීති ගැන සිංහලෙන් හෝ Singlish වලින් අසන්න.'
+                  : 'Ask about course fees ("gana keeyda"), installment plans, theory exam, or trial day rules in English, Sinhala, or Singlish.'}
               </p>
 
-              {/* Quick Feature Badges */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mt-4 pt-3 border-t border-white/10 text-xs">
-                <div className="flex items-center gap-2 text-slate-200">
-                  <div className="p-1.5 rounded-lg bg-white/10">
-                    <Car className="w-3.5 h-3.5 text-brand-300" />
-                  </div>
-                  <span>{isSi ? 'ද්විත්ව පාලක වාහන' : 'Dual-Control Cars'}</span>
-                </div>
-                <div className="flex items-center gap-2 text-slate-200">
-                  <div className="p-1.5 rounded-lg bg-white/10">
-                    <Award className="w-3.5 h-3.5 text-brand-300" />
-                  </div>
-                  <span>{isSi ? '100% සමත් වීමේ මගපෙන්වීම' : '100% Pass Coaching'}</span>
-                </div>
-                <div className="flex items-center gap-2 text-slate-200">
-                  <div className="p-1.5 rounded-lg bg-white/10">
-                    <Clock className="w-3.5 h-3.5 text-brand-300" />
-                  </div>
-                  <span>{isSi ? 'පහසු වාරික ක්‍රම' : '3-Stage Installments'}</span>
-                </div>
-                <div className="flex items-center gap-2 text-slate-200">
-                  <div className="p-1.5 rounded-lg bg-white/10">
-                    <FileText className="w-3.5 h-3.5 text-brand-300" />
-                  </div>
-                  <span>{isSi ? 'NTMI මෙඩිකල් සහය' : 'NTMI Medical Guidance'}</span>
-                </div>
+              {/* Quick Interactive Tool Pills */}
+              <div className="flex flex-wrap items-center justify-center gap-2 mt-4 pt-3 border-t border-slate-100">
+                <button
+                  type="button"
+                  onClick={() => setIsSchoolsOpen(true)}
+                  className="px-3 py-1.5 rounded-xl bg-slate-50 hover:bg-brand-50 text-slate-700 hover:text-brand-700 border border-slate-200 text-xs font-semibold flex items-center gap-1.5 transition active:scale-95 shadow-2xs"
+                >
+                  <Building2 className="w-3.5 h-3.5 text-brand-600" />
+                  <span>{isSi ? 'රියදුරු පාසල්' : 'Schools Directory'}</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setIsRoadmapOpen(true)}
+                  className="px-3 py-1.5 rounded-xl bg-slate-50 hover:bg-brand-50 text-slate-700 hover:text-brand-700 border border-slate-200 text-xs font-semibold flex items-center gap-1.5 transition active:scale-95 shadow-2xs"
+                >
+                  <Compass className="w-3.5 h-3.5 text-emerald-600" />
+                  <span>{isSi ? 'මගපෙන්වීම' : '5-Step Roadmap'}</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setIsCalculatorOpen(true)}
+                  className="px-3 py-1.5 rounded-xl bg-slate-50 hover:bg-brand-50 text-slate-700 hover:text-brand-700 border border-slate-200 text-xs font-semibold flex items-center gap-1.5 transition active:scale-95 shadow-2xs"
+                >
+                  <Calculator className="w-3.5 h-3.5 text-amber-600" />
+                  <span>{isSi ? 'ගාස්තු ගණකය' : 'Fee Calculator'}</span>
+                </button>
               </div>
             </div>
-          </div>
-
-          {/* Quick Explorer Hub Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
-            <button
-              type="button"
-              onClick={() => setIsSchoolsOpen(true)}
-              className="bg-white hover:bg-brand-50/50 p-3.5 rounded-2xl border border-slate-200/90 hover:border-brand-300 shadow-2xs hover:shadow-xs transition text-left flex items-center justify-between group"
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0">
-                  <Building2 className="w-5 h-5" />
-                </div>
-                <div>
-                  <h4 className="text-xs font-bold text-slate-900 group-hover:text-brand-600 transition">
-                    {isSi ? 'ශ්‍රී ලංකා රියදුරු පාසල්' : 'Driving Schools Directory'}
-                  </h4>
-                  <p className="text-[10px] text-slate-500">
-                    {isSi ? 'කොළඹ, නුවර, ගම්පහ, ගාල්ල' : 'Browse registered learners & fees'}
-                  </p>
-                </div>
-              </div>
-              <span className="text-slate-300 group-hover:text-brand-600 text-sm">→</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => setIsRoadmapOpen(true)}
-              className="bg-white hover:bg-brand-50/50 p-3.5 rounded-2xl border border-slate-200/90 hover:border-brand-300 shadow-2xs hover:shadow-xs transition text-left flex items-center justify-between group"
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0">
-                  <Compass className="w-5 h-5" />
-                </div>
-                <div>
-                  <h4 className="text-xs font-bold text-slate-900 group-hover:text-brand-600 transition">
-                    {isSi ? 'බලපත්‍ර පියවර 5ක මග' : '5-Step License Roadmap'}
-                  </h4>
-                  <p className="text-[10px] text-slate-500">
-                    {isSi ? 'වෛද්‍ය පරීක්ෂණයේ සිට ට්‍රයල් එක දක්වා' : 'Medical, Theory, & Trial rules'}
-                  </p>
-                </div>
-              </div>
-              <span className="text-slate-300 group-hover:text-brand-600 text-sm">→</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => setIsCalculatorOpen(true)}
-              className="bg-white hover:bg-brand-50/50 p-3.5 rounded-2xl border border-slate-200/90 hover:border-brand-300 shadow-2xs hover:shadow-xs transition text-left flex items-center justify-between group"
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
-                  <Calculator className="w-5 h-5" />
-                </div>
-                <div>
-                  <h4 className="text-xs font-bold text-slate-900 group-hover:text-brand-600 transition">
-                    {isSi ? 'ගාස්තු සහ වාරික ගණනය' : 'Fee & Installment Calculator'}
-                  </h4>
-                  <p className="text-[10px] text-slate-500">
-                    {isSi ? 'පහසු වාරික 3 හෝ රු. 2,000ක වට්ටම්' : '50% on start, 25%, 25% plans'}
-                  </p>
-                </div>
-              </div>
-              <span className="text-slate-300 group-hover:text-brand-600 text-sm">→</span>
-            </button>
-          </div>
+          )}
 
           {/* Messages Timeline */}
           <div className="space-y-1">

@@ -245,7 +245,7 @@ const OUT_OF_SCOPE_WORDS = [
 ];
 
 // Semantic and lexical search across English and Sinhala
-export function retrieveRelevantKnowledge(query: string, maxResults = 3): RetrievalResult {
+export function retrieveRelevantKnowledge(query: string, maxResults = 4): RetrievalResult {
   const qLower = query.toLowerCase();
 
   // Out of scope domain detection (Anti-hallucination guard)
@@ -320,13 +320,33 @@ export function retrieveRelevantKnowledge(query: string, maxResults = 3): Retrie
       if (chunk.id === 'faq-medical' || chunk.id === 'process-step-1') {
         score += 30;
       }
-    } else if (singlishAnalysis.intent === 'exam') {
-      if (chunk.id === 'faq-theory-exam' || chunk.id === 'process-step-3') {
-        score += 30;
+    } else if (singlishAnalysis.intent === 'age_requirement') {
+      if (chunk.id === 'faq-age-limit' || chunk.id === 'course-car-auto' || chunk.id === 'course-heavy-vehicle') {
+        score += 35;
+      }
+    } else if (singlishAnalysis.intent === 'duration') {
+      if (chunk.id === 'faq-trial-waiting' || chunk.id === 'process-step-4' || chunk.id === 'process-step-5') {
+        score += 35;
+      }
+    } else if (singlishAnalysis.intent === 'process') {
+      if (chunk.category === 'process' || chunk.id.startsWith('process-step') || chunk.id.startsWith('how-schools-work')) {
+        score += 35;
+      }
+    } else if (singlishAnalysis.intent === 'auto_vs_manual') {
+      if (chunk.id === 'faq-auto-vs-manual' || chunk.id === 'course-car-auto' || chunk.id === 'course-car-manual') {
+        score += 35;
+      }
+    } else if (singlishAnalysis.intent === 'schedules') {
+      if (chunk.id === 'faq-schedules') {
+        score += 35;
       }
     } else if (singlishAnalysis.intent === 'trial') {
-      if (chunk.id.includes('trial') || chunk.id === 'process-step-5') {
-        score += 30;
+      if (chunk.id.includes('trial') || chunk.id === 'trial-day-guidelines' || chunk.id === 'faq-trial-fail' || chunk.id === 'process-step-5') {
+        score += 35;
+      }
+    } else if (singlishAnalysis.intent === 'exam') {
+      if (chunk.id === 'faq-theory-exam' || chunk.id === 'process-step-3') {
+        score += 35;
       }
     } else if (singlishAnalysis.intent === 'female_instructor') {
       if (chunk.id === 'faq-female-instructors') {
